@@ -8,7 +8,7 @@ import {
   GeoJSON,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { Box, CircularProgress } from "@mui/material";
+import { Box, CircularProgress, IconButton } from "@mui/material";
 import L from "leaflet";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
@@ -24,6 +24,8 @@ import { availableLayers, type LayerConfig } from "../../utils/layerConfigs";
 import { calculateRoute } from "../../utils/routingService";
 import RoutingControl from "../Routing/RoutingControl";
 import DrawTools from "./DrawTools";
+import { MenuOpen } from "@mui/icons-material";
+import { useResponsive } from "../../utils/ResponsiveContext";
 
 // Correction pour les icônes Leaflet en React
 const DefaultIcon = L.icon({
@@ -91,6 +93,7 @@ const MapUpdater: React.FC<{ center?: [number, number] }> = ({ center }) => {
 };
 
 const Map: React.FC = () => {
+  const { isSidebarOpen, toggleSidebar } = useResponsive();
   const [layers, setLayers] = useState<GeoJsonLayer[]>([]);
   const [loadingStates, setLoadingStates] = useState<LoadingState>({});
   const [loadedData, setLoadedData] = useState<
@@ -243,17 +246,44 @@ const Map: React.FC = () => {
 
   return (
     <Box sx={{ display: "flex", height: "100vh", width: "100%" }}>
-      <Sidebar
-        layers={layers.map((layer) => ({
-          ...layer,
-          loading: loadingStates[layer.id] || false,
-        }))}
-        onLayerToggle={handleLayerToggle}
-        onRouteRequest={handleRouteRequest}
-        onToggleDrawing={handleToggleDrawing}
-        drawnShapes={drawnShapes}
-      />
+      {isSidebarOpen && (
+        <Sidebar
+          layers={layers.map((layer) => ({
+            ...layer,
+            loading: loadingStates[layer.id] || false,
+          }))}
+          onLayerToggle={handleLayerToggle}
+          onRouteRequest={handleRouteRequest}
+          onToggleDrawing={handleToggleDrawing}
+          drawnShapes={drawnShapes}
+        />
+      )}
       <Box sx={{ flexGrow: 1, height: "100%", position: "relative" }}>
+        {!isSidebarOpen && (
+          <IconButton
+            onClick={toggleSidebar}
+            sx={{
+              position: "absolute",
+              left: 10,
+              top: 80,
+              zIndex: 1000,
+              backgroundColor: "white",
+              boxShadow: 1,
+              width: 32,
+              height: 32,
+              borderRadius: "50%",
+              border: "1px solid #ddd",
+              "&:hover": {
+                backgroundColor: "#f5f5f5",
+              },
+            }}
+            size="small"
+            aria-label="Ouvrir le panneau latéral"
+          >
+            <MenuOpen fontSize="small" />
+          </IconButton>
+        )}
+        
         <Box
           sx={{
             position: "absolute",

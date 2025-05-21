@@ -15,6 +15,7 @@ import {
   CircularProgress,
   InputAdornment,
   Autocomplete,
+  IconButton,
 } from "@mui/material";
 import {
   Search as SearchIcon,
@@ -23,12 +24,14 @@ import {
   Create as CreateIcon,
   ExpandLess,
   ExpandMore,
+  ChevronLeft,
 } from "@mui/icons-material";
 import type { GeoJsonLayer } from "../../utils/geoJsonLoader";
 import { availableLayers } from "../../utils/layerConfigs";
 import RoutingPanel from "../Routing/RoutingPanel";
 import DrawingPanel from "./DrawingPanel";
 import type { Feature } from "geojson";
+import { useResponsive } from "../../utils/ResponsiveContext";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -84,6 +87,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   onToggleDrawing,
   drawnShapes = [],
 }) => {
+  const { isSidebarOpen, toggleSidebar } = useResponsive();
   const [value, setValue] = useState(0);
   const [searchTerm, setSearchTerm] = useState("");
   const [expandedCategories, setExpandedCategories] = useState<string[]>([]);
@@ -103,7 +107,7 @@ const Sidebar: React.FC<SidebarProps> = ({
     );
   };
 
-  const drawerWidth = 280;
+  const drawerWidth = 350;
 
   // Créer les options de recherche
   const searchOptions = useMemo(() => {
@@ -185,17 +189,42 @@ const Sidebar: React.FC<SidebarProps> = ({
 
   return (
     <Drawer
-      variant="permanent"
+      variant="persistent"
+      open={isSidebarOpen}
       sx={{
         width: drawerWidth,
         flexShrink: 0,
         "& .MuiDrawer-paper": {
           width: drawerWidth,
           boxSizing: "border-box",
+          position: "relative",
         },
       }}
     >
-      <Box sx={{ overflow: "auto", height: "100%" }}>
+      <Box sx={{ overflow: "auto", height: "100%", position: "relative" }}>
+        <IconButton
+          onClick={toggleSidebar}
+          sx={{
+            position: "absolute",
+            right: -20,
+            top: 20,
+            zIndex: 1300,
+            backgroundColor: "white",
+            border: "1px solid #ddd",
+            width: 50,
+            height: 50,
+            borderRadius: "50%",
+            boxShadow: 1,
+            "&:hover": {
+              backgroundColor: "#f5f5f5",
+            },
+          }}
+          size="small"
+          aria-label="Fermer le panneau latéral"
+        >
+          <ChevronLeft fontSize="small" />
+        </IconButton>
+        
         <Box sx={{ p: 2 }}>
           <Autocomplete
             fullWidth

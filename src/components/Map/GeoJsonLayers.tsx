@@ -55,7 +55,7 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
       distance: number;
       category: string;
     }[] = [];
-    
+
     const currentCoords = getFeatureCoordinates(feature);
     if (!currentCoords) return nearbyServices;
 
@@ -71,18 +71,18 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
 
           try {
             // Use string literal directly for units
-            const distance = turf.distance(
+          const distance = turf.distance(
               turf.point(currentCoords),
               turf.point(otherCoords),
               "kilometers"
-            );
+          );
 
-            if (distance <= 1) {
-              nearbyServices.push({
-                name: otherFeature.properties?.name || "Non nommé",
-                distance: Math.round(distance * 1000),
-                category: layer.category,
-              });
+          if (distance <= 1) {
+            nearbyServices.push({
+              name: otherFeature.properties?.name || "Non nommé",
+              distance: Math.round(distance * 1000),
+              category: layer.category,
+            });
             }
           } catch (error) {
             console.error("Error calculating distance:", error);
@@ -209,7 +209,7 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
 
     // For non-point geometries
     const coordinates = getFeatureCoordinates(feature) || [0, 0];
-    
+
     return (
       <GeoJSON
         key={`${feature.properties?.name || "unnamed"}-${JSON.stringify(feature.geometry).substring(0, 50)}`}

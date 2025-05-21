@@ -35,7 +35,7 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
     }
 
     const fetchRoute = async () => {
-      setIsCalculating(true);
+    setIsCalculating(true);
       setError(null);
       setRouteData(null);
       setRouteInfo(null);
@@ -52,7 +52,7 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
         
         // Extract route information
         if (result.route.properties) {
-          setRouteInfo({
+      setRouteInfo({
             distance: result.route.properties.distance,
             duration: result.route.properties.duration,
             steps: result.route.properties.steps
@@ -71,7 +71,7 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
         console.error('Error in RoutingControl:', err);
         setError(err instanceof Error ? err.message : "Échec du calcul d'itinéraire");
       } finally {
-        setIsCalculating(false);
+      setIsCalculating(false);
       }
     };
 
@@ -88,8 +88,8 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
       return `${Math.round(meters)} m`;
     } else {
       return `${(meters / 1000).toFixed(1)} km`;
-    }
-  };
+      }
+    };
 
   // Format duration
   const formatDuration = (seconds: number) => {
@@ -101,20 +101,20 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
       const hours = Math.floor(seconds / 3600);
       const minutes = Math.round((seconds % 3600) / 60);
       return `${hours} h ${minutes} min`;
-    }
+  }
   };
 
   if (error) {
-    return (
-      <Paper 
-        elevation={3}
-        sx={{
-          position: 'absolute',
-          bottom: 20,
-          right: 20,
-          zIndex: 1000,
-          padding: 2,
-          maxWidth: 300,
+  return (
+    <Paper 
+      elevation={3}
+      sx={{
+        position: 'absolute',
+        bottom: 20,
+        right: 20,
+        zIndex: 1000,
+        padding: 2,
+        maxWidth: 300,
           backgroundColor: 'rgba(255, 0, 0, 0.1)'
         }}
       >
@@ -163,7 +163,7 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
             iconSize: [16, 16],
             iconAnchor: [8, 8]
           })}
-        >
+    >
           <Popup>Destination</Popup>
         </Marker>
       )}
@@ -181,10 +181,10 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
             backgroundColor: 'rgba(255, 255, 255, 0.95)'
           }}
         >
-          <Box display="flex" alignItems="center" gap={2}>
-            <CircularProgress size={20} />
-            <Typography>Calcul de l'itinéraire...</Typography>
-          </Box>
+        <Box display="flex" alignItems="center" gap={2}>
+          <CircularProgress size={20} />
+          <Typography>Calcul de l'itinéraire...</Typography>
+        </Box>
         </Paper>
       ) : routeInfo && (
         <Paper 
@@ -199,26 +199,26 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
             backgroundColor: 'rgba(255, 255, 255, 0.95)'
           }}
         >
-          <Box>
-            <Typography variant="h6" gutterBottom>
-              Informations sur l'itinéraire
-            </Typography>
+        <Box>
+          <Typography variant="h6" gutterBottom>
+            Informations sur l'itinéraire
+          </Typography>
             <Box display="flex" alignItems="center" gap={1} mb={1}>
               <DirectionsWalk color="primary" />
-              <Typography>
+          <Typography>
                 Distance: {formatDistance(routeInfo.distance)}
-              </Typography>
+          </Typography>
             </Box>
             <Box display="flex" alignItems="center" gap={1} mb={2}>
               <AccessTime color="primary" />
               <Typography>
                 Durée estimée: {formatDuration(routeInfo.duration)}
-              </Typography>
+          </Typography>
             </Box>
-            <Typography variant="subtitle1" gutterBottom>
-              Instructions:
-            </Typography>
-            <Box sx={{ maxHeight: 200, overflow: 'auto' }}>
+          <Typography variant="subtitle1" gutterBottom>
+            Instructions:
+          </Typography>
+          <Box sx={{ maxHeight: 200, overflow: 'auto' }}>
               {routeInfo.steps.map((step, index) => (
                 <Box 
                   key={index} 
@@ -250,12 +250,12 @@ const RoutingControl: React.FC<RoutingControlProps> = ({ waypoints }) => {
                     </Typography>
                     <Typography variant="caption" color="text.secondary">
                       {formatDistance(step.distance)} • {formatDuration(step.duration)}
-                    </Typography>
+              </Typography>
                   </Box>
                 </Box>
-              ))}
-            </Box>
+            ))}
           </Box>
+        </Box>
         </Paper>
       )}
     </>

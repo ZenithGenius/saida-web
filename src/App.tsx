@@ -1,6 +1,7 @@
 import React from 'react';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import Map from './components/Map/Map';
+import { ResponsiveProvider } from './utils/ResponsiveContext';
 
 const theme = createTheme({
   palette: {
@@ -18,7 +19,9 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Map />
+      <ResponsiveProvider>
+        <Map />
+      </ResponsiveProvider>
     </ThemeProvider>
   );
 };
