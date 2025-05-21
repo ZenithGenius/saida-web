@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:20:55Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290845818",
+        "addr:city": "Ebolowa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1498365,
+              2.9123983
+            ],
+            [
+              11.149952,
+              2.9123218
+            ],
+            [
+              11.1500138,
+              2.9124149
+            ],
+            [
+              11.1498983,
+              2.9124914
+            ],
+            [
+              11.1498365,
+              2.9123983
+            ]
+          ]
+        ]
+      },
+      "id": "way/1290845818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290845963",
+        "addr:city": "Ebolowa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1499734,
+              2.9137678
+            ],
+            [
+              11.1497589,
+              2.9137721
+            ],
+            [
+              11.1497577,
+              2.9137143
+            ],
+            [
+              11.1499722,
+              2.9137099
+            ],
+            [
+              11.1499734,
+              2.9137678
+            ]
+          ]
+        ]
+      },
+      "id": "way/1290845963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468765492",
+        "addr:city": "Ebolowa",
+        "air_conditioning": "no",
+        "amenity": "place_of_worship",
+        "level": "1",
+        "name": "Mosquée Centrale D’Ebolowa",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.14862,
+          2.9125778
+        ]
+      },
+      "id": "node/11468765492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472743718",
+        "amenity": "place_of_worship",
+        "religion": "muslim",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1516626,
+          2.9039597
+        ]
+      },
+      "id": "node/11472743718"
+    }
+  ]
+}

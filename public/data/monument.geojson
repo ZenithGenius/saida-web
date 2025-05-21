@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T16:04:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449665798",
+        "historic": "memorial",
+        "name": "Monument Martin Paul Samba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1485769,
+          2.9104207
+        ]
+      },
+      "id": "node/4449665798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4450812526",
+        "historic": "memorial",
+        "name": "Monument du Cinquantenaire des Armées"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.159412,
+          2.9122672
+        ]
+      },
+      "id": "node/4450812526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4450974999",
+        "historic": "memorial",
+        "memorial:text": "Route Ebolowa-Ambam construite par les Administrateurs des colonies - Martin et Chefdrue de 1930 à 1933",
+        "name": "Monument Martin Et Chefdrue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1455907,
+          2.9187818
+        ]
+      },
+      "id": "node/4450974999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465283199",
+        "historic": "monument",
+        "name": "Monument De L’independance De L’EPC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1588419,
+          2.9091524
+        ]
+      },
+      "id": "node/11465283199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465692444",
+        "historic": "monument",
+        "name": "Carrefour lion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.148562,
+          2.9250182
+        ]
+      },
+      "id": "node/11465692444"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:22:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448010448",
+        "amenity": "bus_station",
+        "name": "Mvila Voyages"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.153546,
+              2.9184867
+            ],
+            [
+              11.153377,
+              2.918251
+            ],
+            [
+              11.1536506,
+              2.9180555
+            ],
+            [
+              11.1536977,
+              2.918131
+            ],
+            [
+              11.1538008,
+              2.9182965
+            ],
+            [
+              11.153546,
+              2.9184867
+            ]
+          ]
+        ]
+      },
+      "id": "way/448010448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11257193537",
+        "amenity": "bus_station",
+        "name": "Galaxie Bus Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.155476,
+          2.9100325
+        ]
+      },
+      "id": "node/11257193537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472952277",
+        "amenity": "bus_station",
+        "survey:date": "2023-12-31",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1503024,
+          2.9012532
+        ]
+      },
+      "id": "node/11472952277"
+    }
+  ]
+}

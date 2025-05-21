@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T14:58:21Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469899844",
+        "healthcare": "centre",
+        "name": "Centre médical de la police",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1483478,
+          2.9195935
+        ]
+      },
+      "id": "node/11469899844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469902170",
+        "healthcare": "centre",
+        "name": "centre de santé intègre urbain",
+        "survey:date": "2023-12-30",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1475058,
+          2.9207753
+        ]
+      },
+      "id": "node/11469902170"
+    }
+  ]
+}

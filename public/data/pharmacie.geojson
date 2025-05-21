@@ -1,0 +1,240 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T14:57:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448025225",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Pharmacie de la Renaissance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1549086,
+              2.9240491
+            ],
+            [
+              11.1548663,
+              2.9239754
+            ],
+            [
+              11.1549862,
+              2.9239068
+            ],
+            [
+              11.1550285,
+              2.9239805
+            ],
+            [
+              11.1549086,
+              2.9240491
+            ]
+          ]
+        ]
+      },
+      "id": "way/448025225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448026252",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Pharmacie du Bercail"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1504288,
+              2.9209295
+            ],
+            [
+              11.1504728,
+              2.9207357
+            ],
+            [
+              11.1507039,
+              2.920788
+            ],
+            [
+              11.1506459,
+              2.9210437
+            ],
+            [
+              11.1505038,
+              2.9210116
+            ],
+            [
+              11.1505179,
+              2.9209496
+            ],
+            [
+              11.1504288,
+              2.9209295
+            ]
+          ]
+        ]
+      },
+      "id": "way/448026252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290844980",
+        "addr:city": "Ebolowa",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "check_date": "2024-01-01",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Pharmacie Samba",
+        "phone": "+237 2 22 28 46 34",
+        "source": "microsoft/BuildingFootprints",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1488898,
+              2.91038
+            ],
+            [
+              11.1488911,
+              2.9103211
+            ],
+            [
+              11.1487812,
+              2.9103186
+            ],
+            [
+              11.1487828,
+              2.9102517
+            ],
+            [
+              11.148755,
+              2.910251
+            ],
+            [
+              11.1487564,
+              2.910191
+            ],
+            [
+              11.1488744,
+              2.9101937
+            ],
+            [
+              11.1488725,
+              2.9102725
+            ],
+            [
+              11.1489271,
+              2.9102738
+            ],
+            [
+              11.1489252,
+              2.9103541
+            ],
+            [
+              11.1490181,
+              2.9103562
+            ],
+            [
+              11.1490175,
+              2.910383
+            ],
+            [
+              11.1488898,
+              2.91038
+            ]
+          ]
+        ]
+      },
+      "id": "way/1290844980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4450608871",
+        "amenity": "pharmacy",
+        "name": "Pharmacie de la Mvila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1516224,
+          2.9190833
+        ]
+      },
+      "id": "node/4450608871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465403716",
+        "amenity": "pharmacy",
+        "check_date": "2023-12-29",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie La Destinée",
+        "note": "OSM ENSTP",
+        "phone": "+237 2 43 00 35 40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1667841,
+          2.914639
+        ]
+      },
+      "id": "node/11465403716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472652734",
+        "amenity": "pharmacy",
+        "check_date": "2023-12-31",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie Equaser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.149987,
+          2.9229009
+        ]
+      },
+      "id": "node/11472652734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472743719",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "phone": "673332939",
+        "survey:date": "2023-12-31",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1507781,
+          2.9021995
+        ]
+      },
+      "id": "node/11472743719"
+    }
+  ]
+}

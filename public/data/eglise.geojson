@@ -1,0 +1,783 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:19:50Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/420581329",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1533367,
+              2.9178291
+            ],
+            [
+              11.153075,
+              2.9174926
+            ],
+            [
+              11.1532462,
+              2.9173597
+            ],
+            [
+              11.1534697,
+              2.9176471
+            ],
+            [
+              11.1535168,
+              2.9176106
+            ],
+            [
+              11.153555,
+              2.9176597
+            ],
+            [
+              11.1533367,
+              2.9178291
+            ]
+          ]
+        ]
+      },
+      "id": "way/420581329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/447815817",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Cathédrale Saint Anne et Joachim",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1340341,
+              2.9337302
+            ],
+            [
+              11.1340368,
+              2.9336523
+            ],
+            [
+              11.1339935,
+              2.9336508
+            ],
+            [
+              11.1339977,
+              2.9335298
+            ],
+            [
+              11.1340448,
+              2.9335315
+            ],
+            [
+              11.1340558,
+              2.9332168
+            ],
+            [
+              11.1342374,
+              2.9332231
+            ],
+            [
+              11.1342259,
+              2.9335542
+            ],
+            [
+              11.1342613,
+              2.9335555
+            ],
+            [
+              11.1342575,
+              2.9336647
+            ],
+            [
+              11.1342191,
+              2.9336634
+            ],
+            [
+              11.1342165,
+              2.9337365
+            ],
+            [
+              11.1340341,
+              2.9337302
+            ]
+          ]
+        ]
+      },
+      "id": "way/447815817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448025223",
+        "addr:city": "Ebolowa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "presbyterian",
+        "name": "Église Presbytérienne Camerounaise",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1575967,
+              2.9090522
+            ],
+            [
+              11.157596,
+              2.9089991
+            ],
+            [
+              11.1575532,
+              2.9089831
+            ],
+            [
+              11.1575318,
+              2.9089297
+            ],
+            [
+              11.1575505,
+              2.9088843
+            ],
+            [
+              11.1575906,
+              2.9088576
+            ],
+            [
+              11.1575898,
+              2.9087925
+            ],
+            [
+              11.1579329,
+              2.908788
+            ],
+            [
+              11.1579363,
+              2.9090478
+            ],
+            [
+              11.1575967,
+              2.9090522
+            ]
+          ]
+        ]
+      },
+      "id": "way/448025223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290844331",
+        "addr:city": "Ebolowa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "evangelical",
+        "level": "1",
+        "name": "Eglise Evangelique Du Cameroun",
+        "religion": "christian",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1506475,
+              2.9145729
+            ],
+            [
+              11.1506735,
+              2.9147485
+            ],
+            [
+              11.1504583,
+              2.9147803
+            ],
+            [
+              11.1504323,
+              2.9146047
+            ],
+            [
+              11.1506475,
+              2.9145729
+            ]
+          ]
+        ]
+      },
+      "id": "way/1290844331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290845818",
+        "addr:city": "Ebolowa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1498365,
+              2.9123983
+            ],
+            [
+              11.149952,
+              2.9123218
+            ],
+            [
+              11.1500138,
+              2.9124149
+            ],
+            [
+              11.1498983,
+              2.9124914
+            ],
+            [
+              11.1498365,
+              2.9123983
+            ]
+          ]
+        ]
+      },
+      "id": "way/1290845818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290845963",
+        "addr:city": "Ebolowa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1499734,
+              2.9137678
+            ],
+            [
+              11.1497589,
+              2.9137721
+            ],
+            [
+              11.1497577,
+              2.9137143
+            ],
+            [
+              11.1499722,
+              2.9137099
+            ],
+            [
+              11.1499734,
+              2.9137678
+            ]
+          ]
+        ]
+      },
+      "id": "way/1290845963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4869138021",
+        "addr:street": "Mbalmayo - Ebolowa",
+        "amenity": "place_of_worship",
+        "name": "Mission Catholique ND Fatma St Jean Bosco",
+        "name:fr": "Mission Catholique ND Fatma St Jean Bosco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1531036,
+          2.9177008
+        ]
+      },
+      "id": "node/4869138021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4869138122",
+        "addr:street": "Carrefour Tame Zou",
+        "amenity": "place_of_worship",
+        "name": "Congrégation des Salésiens de Don Bosco",
+        "name:fr": "Congrégation des Salésiens de Don Bosco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1504721,
+          2.9182544
+        ]
+      },
+      "id": "node/4869138122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4869138221",
+        "addr:street": "Carrefour Tame Zou",
+        "amenity": "place_of_worship",
+        "name": "Prenoviciat unique des Salésiens de Don Bosco ATE",
+        "name:fr": "Prenoviciat unique des Salésiens de Don Bosco ATE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1507233,
+          2.9183676
+        ]
+      },
+      "id": "node/4869138221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465204624",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-29",
+        "name": "Mission Du Plein Évangiles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1632209,
+          2.9130804
+        ]
+      },
+      "id": "node/11465204624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465306869",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-29",
+        "name": "EPC",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1678742,
+          2.9137895
+        ]
+      },
+      "id": "node/11465306869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465684589",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-29",
+        "name": "Paroisse Saint Joseph"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1677876,
+          2.9195474
+        ]
+      },
+      "id": "node/11465684589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465692445",
+        "amenity": "place_of_worship",
+        "name": "Chapelle nkô’ovos Corinthe",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.153824,
+          2.9180241
+        ]
+      },
+      "id": "node/11465692445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465725980",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-29",
+        "name": "EPC Paroisse Samuel Enam Mba’a",
+        "note": "OSM ENSTP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.169592,
+          2.9212731
+        ]
+      },
+      "id": "node/11465725980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465741037",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1703826,
+          2.9228625
+        ]
+      },
+      "id": "node/11465741037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468765492",
+        "addr:city": "Ebolowa",
+        "air_conditioning": "no",
+        "amenity": "place_of_worship",
+        "level": "1",
+        "name": "Mosquée Centrale D’Ebolowa",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.14862,
+          2.9125778
+        ]
+      },
+      "id": "node/11468765492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468791570",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-30",
+        "name": "Paroisse Marie Reine Des Apôtres D’Angalé",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1678183,
+          2.9369621
+        ]
+      },
+      "id": "node/11468791570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468851886",
+        "amenity": "place_of_worship",
+        "name": "Eglise Presbyterienne",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1432544,
+          2.9175753
+        ]
+      },
+      "id": "node/11468851886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468892802",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-30",
+        "name": "EPC Mekalat Yemveng",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1672591,
+          2.9431654
+        ]
+      },
+      "id": "node/11468892802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468956670",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-30",
+        "name": "EPC Chapelle Bilon-Sinai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1593508,
+          2.9383674
+        ]
+      },
+      "id": "node/11468956670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468971153",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-30",
+        "name": "EPC Anvam Moise Didier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1542889,
+          2.930773
+        ]
+      },
+      "id": "node/11468971153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469009313",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-30",
+        "name": "Paroisse Sté Rosa Ce Sri I D’ekombite",
+        "note": "OSM ENSTP",
+        "religion": "christian",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1542517,
+          2.9307184
+        ]
+      },
+      "id": "node/11469009313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469899852",
+        "amenity": "place_of_worship",
+        "name": "Paroisse Sociologique saint jean paul II",
+        "religion": "christian",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1500661,
+          2.9193503
+        ]
+      },
+      "id": "node/11469899852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472701441",
+        "amenity": "place_of_worship",
+        "name": "Royaume des temoins de Jehovah",
+        "survey:date": "2023-12-31",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1497384,
+          2.9068378
+        ]
+      },
+      "id": "node/11472701441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472701443",
+        "amenity": "place_of_worship",
+        "religion": "christian",
+        "survey:date": "2023-12-31",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1498467,
+          2.9062832
+        ]
+      },
+      "id": "node/11472701443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472701447",
+        "amenity": "place_of_worship",
+        "religion": "christian",
+        "survey:date": "2023-12-31",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1501328,
+          2.9056977
+        ]
+      },
+      "id": "node/11472701447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472723710",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-31",
+        "denomination": "quaker",
+        "name": "Centre Catechetique D’Abang",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1337947,
+          2.9332905
+        ]
+      },
+      "id": "node/11472723710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472743716",
+        "amenity": "place_of_worship",
+        "religion": "christian",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1501268,
+          2.9040841
+        ]
+      },
+      "id": "node/11472743716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472743718",
+        "amenity": "place_of_worship",
+        "religion": "muslim",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1516626,
+          2.9039597
+        ]
+      },
+      "id": "node/11472743718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472801681",
+        "amenity": "place_of_worship",
+        "religion": "christian",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1517171,
+          2.8992293
+        ]
+      },
+      "id": "node/11472801681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472952270",
+        "amenity": "place_of_worship",
+        "name": "Paroisse Sinaï",
+        "religion": "christian",
+        "survey:date": "2023-12-31",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1452196,
+          2.909359
+        ]
+      },
+      "id": "node/11472952270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472952272",
+        "amenity": "place_of_worship",
+        "religion": "christian",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.145545,
+          2.9117765
+        ]
+      },
+      "id": "node/11472952272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11473068759",
+        "amenity": "place_of_worship",
+        "name": "Paroisse New bell Bethanie",
+        "religion": "christian",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1443331,
+          2.9314441
+        ]
+      },
+      "id": "node/11473068759"
+    }
+  ]
+}

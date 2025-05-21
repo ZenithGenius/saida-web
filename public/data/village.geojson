@@ -1,0 +1,2171 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:58:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2434068886",
+        "designation": "Village",
+        "name": "Dzeng",
+        "note": "position approximative",
+        "place": "village",
+        "source": "Wv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1164219,
+          3.0146715
+        ]
+      },
+      "id": "node/2434068886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2454068089",
+        "name": "Nkoulemakong",
+        "note": "position approximative",
+        "place": "village",
+        "source": "ATEBA WV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1032647,
+          2.861316
+        ]
+      },
+      "id": "node/2454068089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662489",
+        "name": "Abang",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1318295,
+          2.934723
+        ]
+      },
+      "id": "node/2460662489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662494",
+        "name": "Abomvomba",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9075666,
+          2.7917539
+        ]
+      },
+      "id": "node/2460662494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662495",
+        "name": "About",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2156685,
+          2.9058378
+        ]
+      },
+      "id": "node/2460662495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662502",
+        "name": "Adjap Biyeng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1230466,
+          2.9690979
+        ]
+      },
+      "id": "node/2460662502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662518",
+        "name": "Adjap",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2248352,
+          2.7506595
+        ]
+      },
+      "id": "node/2460662518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662575",
+        "name": "Afanengong Yessok",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2063365,
+          2.7699092
+        ]
+      },
+      "id": "node/2460662575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662578",
+        "name": "Afanéngong Adjap",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0591267,
+          2.9333499
+        ]
+      },
+      "id": "node/2460662578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662585",
+        "name": "Afanéngong Evele",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0631646,
+          2.930147
+        ]
+      },
+      "id": "node/2460662585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662599",
+        "name": "Akak Essatolo",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.101549,
+          2.9410324
+        ]
+      },
+      "id": "node/2460662599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662646",
+        "name": "Ako'okas",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.272089,
+          2.7230283
+        ]
+      },
+      "id": "node/2460662646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662652",
+        "name": "Akok",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2475286,
+          2.7365727
+        ]
+      },
+      "id": "node/2460662652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662679",
+        "name": "Akom",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3478925,
+          2.6238505
+        ]
+      },
+      "id": "node/2460662679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662737",
+        "name": "Alen",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1131709,
+          2.784026
+        ]
+      },
+      "id": "node/2460662737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662764",
+        "name": "Aloum",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7228353,
+          2.8121203
+        ]
+      },
+      "id": "node/2460662764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662768",
+        "name": "Aloum",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.717546,
+          2.8166357
+        ]
+      },
+      "id": "node/2460662768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662772",
+        "name": "Amvam",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2552618,
+          2.7332105
+        ]
+      },
+      "id": "node/2460662772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662776",
+        "name": "Amvan",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0788305,
+          2.9295565
+        ]
+      },
+      "id": "node/2460662776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662779",
+        "name": "Ando'o",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.090152,
+          2.8795866
+        ]
+      },
+      "id": "node/2460662779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662818",
+        "name": "Asso'osseng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1405761,
+          2.8354327
+        ]
+      },
+      "id": "node/2460662818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662858",
+        "name": "Azem",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1154525,
+          2.8763845
+        ]
+      },
+      "id": "node/2460662858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662863",
+        "name": "Biba I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1069434,
+          2.7757565
+        ]
+      },
+      "id": "node/2460662863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662864",
+        "name": "Biba II",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0958242,
+          2.762871
+        ]
+      },
+      "id": "node/2460662864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662881",
+        "name": "Bikou'ou",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9483319,
+          2.844588
+        ]
+      },
+      "id": "node/2460662881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662884",
+        "name": "Bikpwae",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2077922,
+          2.8304312
+        ]
+      },
+      "id": "node/2460662884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662885",
+        "name": "Bikpwaé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2864415,
+          2.6747263
+        ]
+      },
+      "id": "node/2460662885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662886",
+        "name": "Bilon",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1594126,
+          2.9385697
+        ]
+      },
+      "id": "node/2460662886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662896",
+        "name": "Bissobinlam",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3312863,
+          2.6508616
+        ]
+      },
+      "id": "node/2460662896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662897",
+        "name": "Bissok",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1813518,
+          2.9447221
+        ]
+      },
+      "id": "node/2460662897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662899",
+        "name": "Biton",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8923907,
+          2.7894005
+        ]
+      },
+      "id": "node/2460662899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662901",
+        "name": "Bityili I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1863056,
+          2.9526285
+        ]
+      },
+      "id": "node/2460662901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662902",
+        "name": "Bityili II",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1996496,
+          2.9473226
+        ]
+      },
+      "id": "node/2460662902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662907",
+        "name": "Biyeyem",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1406744,
+          2.848082
+        ]
+      },
+      "id": "node/2460662907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662920",
+        "name": "Ebolakoun",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2006919,
+          2.8422727
+        ]
+      },
+      "id": "node/2460662920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662921",
+        "name": "Ebolowa Si",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1391107,
+          2.9099569
+        ]
+      },
+      "id": "node/2460662921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662926",
+        "name": "Edoum",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9326942,
+          2.8099346
+        ]
+      },
+      "id": "node/2460662926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662931",
+        "name": "Ekoumdoum",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0680097,
+          2.7415624
+        ]
+      },
+      "id": "node/2460662931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662935",
+        "name": "Elon",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7806195,
+          2.8189307
+        ]
+      },
+      "id": "node/2460662935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662938",
+        "name": "Engom I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0666858,
+          2.8702768
+        ]
+      },
+      "id": "node/2460662938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662939",
+        "name": "Engom II",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0495445,
+          2.8581701
+        ]
+      },
+      "id": "node/2460662939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662942",
+        "name": "Enongal",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1858412,
+          2.8962907
+        ]
+      },
+      "id": "node/2460662942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662943",
+        "name": "Essakoé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1419861,
+          2.8702832
+        ]
+      },
+      "id": "node/2460662943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662945",
+        "name": "Essinguili",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1846375,
+          2.9089167
+        ]
+      },
+      "id": "node/2460662945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662946",
+        "name": "Eves",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1067971,
+          2.9352929
+        ]
+      },
+      "id": "node/2460662946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662948",
+        "name": "Eyek",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2225967,
+          2.7637955
+        ]
+      },
+      "id": "node/2460662948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662950",
+        "name": "Fe'eyop",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2330988,
+          2.7406925
+        ]
+      },
+      "id": "node/2460662950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662954",
+        "name": "Foulassi I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9425932,
+          2.8183199
+        ]
+      },
+      "id": "node/2460662954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662955",
+        "name": "Foulassi I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9374053,
+          2.8258677
+        ]
+      },
+      "id": "node/2460662955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662963",
+        "name": "Konda Essaebeng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0879692,
+          2.8713408
+        ]
+      },
+      "id": "node/2460662963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662968",
+        "name": "Koungoulou Biyeng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1172306,
+          2.9963413
+        ]
+      },
+      "id": "node/2460662968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662988",
+        "name": "Loo Biyeng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.123263,
+          2.9596089
+        ]
+      },
+      "id": "node/2460662988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460662989",
+        "name": "Ma'amezam",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1900958,
+          2.7771503
+        ]
+      },
+      "id": "node/2460662989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663002",
+        "name": "Mbako'o",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2046245,
+          2.8100969
+        ]
+      },
+      "id": "node/2460663002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663010",
+        "name": "Mbilntangan",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2155661,
+          2.7701439
+        ]
+      },
+      "id": "node/2460663010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663017",
+        "name": "Mbout",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0869803,
+          2.7621642
+        ]
+      },
+      "id": "node/2460663017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663020",
+        "name": "Mebaé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1196722,
+          2.9486956
+        ]
+      },
+      "id": "node/2460663020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663025",
+        "name": "Mefo",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8142975,
+          2.8036999
+        ]
+      },
+      "id": "node/2460663025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663026",
+        "name": "Mefo",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7706242,
+          2.8245137
+        ]
+      },
+      "id": "node/2460663026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663029",
+        "name": "Meka'a I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9185544,
+          2.8987409
+        ]
+      },
+      "id": "node/2460663029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663031",
+        "name": "Mekalat Biyeng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1372253,
+          2.9556129
+        ]
+      },
+      "id": "node/2460663031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663032",
+        "name": "Mekalat Yemveng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1696349,
+          2.9347341
+        ]
+      },
+      "id": "node/2460663032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663042",
+        "name": "Mekomo",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3423221,
+          2.6322799
+        ]
+      },
+      "id": "node/2460663042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663058",
+        "name": "Menya'a",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0384518,
+          2.859647
+        ]
+      },
+      "id": "node/2460663058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663062",
+        "name": "Messambe",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6885632,
+          2.9742558
+        ]
+      },
+      "id": "node/2460663062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663066",
+        "name": "Metyikpwale",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1834959,
+          2.8671588
+        ]
+      },
+      "id": "node/2460663066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663070",
+        "name": "Meyo Essakoé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0178998,
+          2.8611952
+        ]
+      },
+      "id": "node/2460663070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663073",
+        "name": "Meyos",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2563598,
+          2.8080073
+        ]
+      },
+      "id": "node/2460663073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663085",
+        "name": "Minkan",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.662919,
+          2.9858602
+        ]
+      },
+      "id": "node/2460663085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663089",
+        "name": "Minkok",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3219834,
+          2.6591838
+        ]
+      },
+      "id": "node/2460663089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663090",
+        "name": "Minkok",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1769767,
+          2.991238
+        ]
+      },
+      "id": "node/2460663090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663093",
+        "name": "Minto Fang",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3037978,
+          2.6647777
+        ]
+      },
+      "id": "node/2460663093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663099",
+        "name": "Monenlam",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1148099,
+          2.8863108
+        ]
+      },
+      "id": "node/2460663099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663118",
+        "name": "Mvam Yétom",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0764678,
+          2.7457653
+        ]
+      },
+      "id": "node/2460663118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663119",
+        "name": "Mvam",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1546933,
+          2.8807611
+        ]
+      },
+      "id": "node/2460663119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663126",
+        "name": "Mvila",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0607248,
+          2.8684058
+        ]
+      },
+      "id": "node/2460663126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663127",
+        "name": "Mvoula",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1874447,
+          2.8554335
+        ]
+      },
+      "id": "node/2460663127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663128",
+        "name": "Mvoutedoum",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1760588,
+          2.9827964
+        ]
+      },
+      "id": "node/2460663128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663130",
+        "name": "Mébaé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1367519,
+          2.963434
+        ]
+      },
+      "id": "node/2460663130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663156",
+        "name": "Ndengue",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1257533,
+          2.7978202
+        ]
+      },
+      "id": "node/2460663156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663161",
+        "name": "Ndjafop",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2104713,
+          2.8151915
+        ]
+      },
+      "id": "node/2460663161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663196",
+        "name": "Ngalan I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1221419,
+          2.9410616
+        ]
+      },
+      "id": "node/2460663196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663212",
+        "name": "Ngalan III",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2217253,
+          2.8068759
+        ]
+      },
+      "id": "node/2460663212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663332",
+        "alt_name": "Nkoemvone",
+        "name": "Nko'émvon",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1331319,
+          2.8167468
+        ]
+      },
+      "id": "node/2460663332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663364",
+        "name": "Nkolandom",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1680981,
+          2.8092917
+        ]
+      },
+      "id": "node/2460663364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663377",
+        "name": "Nkolbewo'o",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7951611,
+          2.8029767
+        ]
+      },
+      "id": "node/2460663377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663394",
+        "name": "Nkolemvon",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2214227,
+          2.7530625
+        ]
+      },
+      "id": "node/2460663394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663398",
+        "name": "Nkolmefoutada'a",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8968917,
+          2.798943
+        ]
+      },
+      "id": "node/2460663398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663428",
+        "name": "Nkoloveng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.734032,
+          2.8160462
+        ]
+      },
+      "id": "node/2460663428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663432",
+        "name": "Nkol}nyeng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9232006,
+          2.8050664
+        ]
+      },
+      "id": "node/2460663432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663439",
+        "name": "Nkondongo",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3278258,
+          2.6569186
+        ]
+      },
+      "id": "node/2460663439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663440",
+        "name": "Nkong Adjom",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1843858,
+          2.7911895
+        ]
+      },
+      "id": "node/2460663440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663448",
+        "name": "Nkowaébaé II",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.336726,
+          2.6385746
+        ]
+      },
+      "id": "node/2460663448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663456",
+        "name": "Nn}lefoup",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7601425,
+          2.820171
+        ]
+      },
+      "id": "node/2460663456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663564",
+        "name": "Olem",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0711577,
+          2.9349948
+        ]
+      },
+      "id": "node/2460663564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663578",
+        "name": "Otelé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3579361,
+          2.6195935
+        ]
+      },
+      "id": "node/2460663578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663588",
+        "name": "Oveng",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0663011,
+          2.7276112
+        ]
+      },
+      "id": "node/2460663588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663617",
+        "name": "Sidjakon",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8392065,
+          2.8071736
+        ]
+      },
+      "id": "node/2460663617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663620",
+        "name": "Sidjakon",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8479393,
+          2.8122741
+        ]
+      },
+      "id": "node/2460663620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663631",
+        "name": "Sonkot",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0081973,
+          2.8616232
+        ]
+      },
+      "id": "node/2460663631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663717",
+        "name": "Vema",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2905446,
+          2.692777
+        ]
+      },
+      "id": "node/2460663717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663729",
+        "name": "Yem Essakoy",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7830198,
+          2.9534505
+        ]
+      },
+      "id": "node/2460663729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663733",
+        "name": "Yem Ndong",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0309896,
+          2.8597839
+        ]
+      },
+      "id": "node/2460663733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663758",
+        "name": "Zingui",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.94972,
+          2.8344301
+        ]
+      },
+      "id": "node/2460663758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663770",
+        "name": "Zingui",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9612588,
+          2.843132
+        ]
+      },
+      "id": "node/2460663770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460663778",
+        "name": "Zouameyong",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2010319,
+          2.890741
+        ]
+      },
+      "id": "node/2460663778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460906989",
+        "name": "Ababendoman",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5459782,
+          2.4971127
+        ]
+      },
+      "id": "node/2460906989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460906998",
+        "name": "Abang",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6282595,
+          2.4536419
+        ]
+      },
+      "id": "node/2460906998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907013",
+        "name": "Adjap II",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.498994,
+          2.5409725
+        ]
+      },
+      "id": "node/2460907013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907093",
+        "name": "Assok",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.490559,
+          2.5461525
+        ]
+      },
+      "id": "node/2460907093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907182",
+        "name": "Biboulemam",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.59326,
+          2.480313
+        ]
+      },
+      "id": "node/2460907182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907213",
+        "name": "Bissam",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.525152,
+          2.5217237
+        ]
+      },
+      "id": "node/2460907213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907216",
+        "name": "Bissono",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5548614,
+          2.4899267
+        ]
+      },
+      "id": "node/2460907216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907293",
+        "name": "Ebae",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4120924,
+          2.5993512
+        ]
+      },
+      "id": "node/2460907293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907326",
+        "name": "Ebaé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.433449,
+          2.5919082
+        ]
+      },
+      "id": "node/2460907326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907490",
+        "name": "Essodjap",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4689055,
+          2.5646522
+        ]
+      },
+      "id": "node/2460907490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907524",
+        "name": "Evindissi",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6345594,
+          2.4479819
+        ]
+      },
+      "id": "node/2460907524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907883",
+        "name": "Mekok",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4632783,
+          2.5727069
+        ]
+      },
+      "id": "node/2460907883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460907987",
+        "name": "Mevous",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4445326,
+          2.5858198
+        ]
+      },
+      "id": "node/2460907987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908010",
+        "name": "Meyos",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.690427,
+          2.4147735
+        ]
+      },
+      "id": "node/2460908010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908146",
+        "name": "Mvoman",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3773457,
+          2.6066692
+        ]
+      },
+      "id": "node/2460908146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908252",
+        "name": "Nko'adjap I",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3841273,
+          2.6073442
+        ]
+      },
+      "id": "node/2460908252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908253",
+        "name": "Nko'adjap II",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5109608,
+          2.5300609
+        ]
+      },
+      "id": "node/2460908253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908366",
+        "name": "Nloubessa Fang",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4219376,
+          2.5890586
+        ]
+      },
+      "id": "node/2460908366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908375",
+        "name": "Nsendom",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.535041,
+          2.5104401
+        ]
+      },
+      "id": "node/2460908375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908393",
+        "name": "Nyazanga",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5711563,
+          2.4840534
+        ]
+      },
+      "id": "node/2460908393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2460908446",
+        "name": "Okpweng Ngoé",
+        "place": "village",
+        "source": "WRI_2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.610431,
+          2.4634934
+        ]
+      },
+      "id": "node/2460908446"
+    }
+  ]
+}

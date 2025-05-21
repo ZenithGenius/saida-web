@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:22:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408230008",
+        "amenity": "fuel",
+        "contact:phone": "675374825",
+        "name": "MRS Nko'Ovos",
+        "operator": "MRS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1526472,
+              2.9179814
+            ],
+            [
+              11.1528629,
+              2.9183409
+            ],
+            [
+              11.1525937,
+              2.9185132
+            ],
+            [
+              11.1523134,
+              2.9181324
+            ],
+            [
+              11.1526472,
+              2.9179814
+            ]
+          ]
+        ]
+      },
+      "id": "way/408230008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408230009",
+        "amenity": "fuel",
+        "contact:email": "paulyonta@gmail.com",
+        "contact:phone": "677974088",
+        "name": "Oilibya",
+        "operator": "Oilibya"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1519666,
+              2.9188709
+            ],
+            [
+              11.1520532,
+              2.9189956
+            ],
+            [
+              11.1518707,
+              2.9191214
+            ],
+            [
+              11.1517588,
+              2.9191019
+            ],
+            [
+              11.1517195,
+              2.919052
+            ],
+            [
+              11.1519666,
+              2.9188709
+            ]
+          ]
+        ]
+      },
+      "id": "way/408230009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408230011",
+        "amenity": "fuel",
+        "contact:phone": "697181900",
+        "name": "Tradex Ebolowa",
+        "operator": "Tradex"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1522906,
+              2.9199769
+            ],
+            [
+              11.1521216,
+              2.9197392
+            ],
+            [
+              11.1520746,
+              2.919646
+            ],
+            [
+              11.1521075,
+              2.9196374
+            ],
+            [
+              11.1524495,
+              2.9197646
+            ],
+            [
+              11.1522906,
+              2.9199769
+            ]
+          ]
+        ]
+      },
+      "id": "way/408230011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408235989",
+        "addr:postcode": "860 YAOUNDE",
+        "amenity": "fuel",
+        "contact:email": "gerance2012@yahoo.fr",
+        "contact:phone": "696873354",
+        "name": "MRS",
+        "operator": "TOTAL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1515273,
+              2.92036
+            ],
+            [
+              11.151365,
+              2.9202737
+            ],
+            [
+              11.1515152,
+              2.9199919
+            ],
+            [
+              11.1516775,
+              2.9200782
+            ],
+            [
+              11.1515273,
+              2.92036
+            ]
+          ]
+        ]
+      },
+      "id": "way/408235989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448008607",
+        "amenity": "fuel",
+        "name": "Total"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1516629,
+              2.9197983
+            ],
+            [
+              11.1517261,
+              2.9196723
+            ],
+            [
+              11.1518226,
+              2.9196509
+            ],
+            [
+              11.1519149,
+              2.9196953
+            ],
+            [
+              11.1518262,
+              2.919879
+            ],
+            [
+              11.1517705,
+              2.9198521
+            ],
+            [
+              11.1516629,
+              2.9197983
+            ]
+          ]
+        ]
+      },
+      "id": "way/448008607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4778548323",
+        "amenity": "fuel",
+        "brand": "Tradex",
+        "fuel:diesel": "yes",
+        "fuel:octane_92": "yes",
+        "name": "Tradex",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.14922,
+          2.906872
+        ]
+      },
+      "id": "node/4778548323"
+    }
+  ]
+}

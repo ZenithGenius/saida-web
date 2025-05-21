@@ -1,0 +1,52 @@
+{
+  "name": "saida-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "docker:build": "docker build -t saida-web .",
+    "docker:start": "docker-compose up -d",
+    "docker:stop": "docker-compose down",
+    "docker:restart": "npm run docker:stop && npm run docker:start"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/node": "^22.15.18",
+    "@types/react": "18.2.57",
+    "@types/react-dom": "18.2.19",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.3",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "5.15.11",
+    "@mui/material": "5.15.11",
+    "@turf/simplify": "^7.2.0",
+    "@turf/turf": "^7.2.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/leaflet": "1.9.8",
+    "@types/leaflet-draw": "^1.0.12",
+    "@types/leaflet-routing-machine": "^3.2.8",
+    "@types/lodash": "^4.17.16",
+    "@types/react-leaflet": "3.0.0",
+    "@types/turf": "^3.5.32",
+    "leaflet": "1.9.4",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "lodash": "^4.17.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "4.2.1"
+  }
+}

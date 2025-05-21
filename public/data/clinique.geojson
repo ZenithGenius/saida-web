@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:46:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465187234",
+        "amenity": "clinic",
+        "check_date": "2023-12-29",
+        "description": "Ophtalmologie petite chirurgie laboratoire consultation prénatale",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Denver",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 94 77 17 34",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1634385,
+          2.9123995
+        ]
+      },
+      "id": "node/11465187234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465692645",
+        "amenity": "clinic",
+        "check_date": "2023-12-29",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Clinique Les Saints Archanges",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 99 92 88 62"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1691614,
+          2.9180977
+        ]
+      },
+      "id": "node/11465692645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465795316",
+        "amenity": "clinic",
+        "check_date": "2023-12-29",
+        "healthcare": "clinic",
+        "name": "Centre Médical De Secteur",
+        "note": "OSM ENSTP",
+        "phone": "2222284050",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1710089,
+          2.9235351
+        ]
+      },
+      "id": "node/11465795316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468761875",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "name": "Centre De Santé Soins Et Préventif D’Ebolowa",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 96 36 83 69",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1622913,
+          2.9357868
+        ]
+      },
+      "id": "node/11468761875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468780578",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "name": "Santé Sans Prix",
+        "note": "OSM ENSTP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1689053,
+          2.9374819
+        ]
+      },
+      "id": "node/11468780578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468926099",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "name": "Centre De Santé De L’Espoir",
+        "note": "OSM ENSTP",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1640191,
+          2.94202
+        ]
+      },
+      "id": "node/11468926099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469182832",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centre Médical Ebolowa Camprevent",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 78 64 20 15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1521589,
+          2.9290778
+        ]
+      },
+      "id": "node/11469182832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469184795",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Cabinet Médical Lion KING Sarl",
+        "note": "OSM ENSTP",
+        "operator:type": "private",
+        "phone": "+237 6 95 10 14 18",
+        "source": "survey",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1516485,
+          2.9299714
+        ]
+      },
+      "id": "node/11469184795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469909515",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "name": "Siège Le Bon Samaritain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1618136,
+          2.9255598
+        ]
+      },
+      "id": "node/11469909515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469909518",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "name": "Centre De Santé L’Emmergence"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1621738,
+          2.9256861
+        ]
+      },
+      "id": "node/11469909518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469982126",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "name": "St John Medical Center",
+        "phone": "+237 6 77 10 38 71"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1599241,
+          2.9219007
+        ]
+      },
+      "id": "node/11469982126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11470001866",
+        "amenity": "clinic",
+        "check_date": "2023-12-30",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centre Médical Le Bon Berger",
+        "note": "OSM ENSTP",
+        "operator:type": "private",
+        "phone": "+237 6 94 85 57 62",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1634438,
+          2.9211391
+        ]
+      },
+      "id": "node/11470001866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472741050",
+        "amenity": "clinic",
+        "check_date": "2023-12-31",
+        "healthcare": "clinic",
+        "name": "Dispensaire Catholique Saint Anne Et Joachim D’Abang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1340457,
+          2.9349335
+        ]
+      },
+      "id": "node/11472741050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11475896190",
+        "amenity": "clinic",
+        "check_date": "2024-01-01",
+        "healthcare": "clinic",
+        "name": "Infirmerie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1655916,
+          2.9175723
+        ]
+      },
+      "id": "node/11475896190"
+    }
+  ]
+}

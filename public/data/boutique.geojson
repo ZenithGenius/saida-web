@@ -1,0 +1,883 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:17:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408230007",
+        "building": "yes",
+        "contact:phone": "675020502",
+        "contact:website": "www.congelcam.cm",
+        "name": "Congelcam SA",
+        "shop": "seafood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.15209,
+              2.9185963
+            ],
+            [
+              11.1521928,
+              2.9185202
+            ],
+            [
+              11.1523041,
+              2.9186635
+            ],
+            [
+              11.1522295,
+              2.9187202
+            ],
+            [
+              11.15209,
+              2.9185963
+            ]
+          ]
+        ]
+      },
+      "id": "way/408230007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448022631",
+        "building": "yes",
+        "name": "Nexttel",
+        "shop": "mobile_phone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1551235,
+              2.9164836
+            ],
+            [
+              11.155229,
+              2.9164114
+            ],
+            [
+              11.1553077,
+              2.9165262
+            ],
+            [
+              11.1552022,
+              2.9165984
+            ],
+            [
+              11.1551235,
+              2.9164836
+            ]
+          ]
+        ]
+      },
+      "id": "way/448022631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448025219",
+        "shop": "laundry",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1577133,
+              2.9137972
+            ],
+            [
+              11.1575367,
+              2.91361
+            ],
+            [
+              11.157713,
+              2.9134442
+            ],
+            [
+              11.1578896,
+              2.9136315
+            ],
+            [
+              11.1578094,
+              2.9137069
+            ],
+            [
+              11.1577133,
+              2.9137972
+            ]
+          ]
+        ]
+      },
+      "id": "way/448025219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11254821238",
+        "shop": "copyshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1666363,
+          2.9143017
+        ]
+      },
+      "id": "node/11254821238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11257200837",
+        "name": "Galaxie Agency",
+        "shop": "ticket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1566118,
+          2.9105349
+        ]
+      },
+      "id": "node/11257200837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465183877",
+        "check_date": "2023-12-29",
+        "name": "Rosen Coiffure",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 82 18 09 88",
+        "shop": "beauty",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1632902,
+          2.9123172
+        ]
+      },
+      "id": "node/11465183877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465263428",
+        "check_date": "2023-12-29",
+        "name": "Keys Beauty",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 90 33 38 73",
+        "shop": "beauty"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1661353,
+          2.9143442
+        ]
+      },
+      "id": "node/11465263428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465264309",
+        "check_date": "2023-12-29",
+        "name": "Vernon Beauty",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 78 03 75 62",
+        "shop": "cosmetics",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1653991,
+          2.9140666
+        ]
+      },
+      "id": "node/11465264309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465273081",
+        "check_date": "2023-12-29",
+        "name": "Élégancia Pressing",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 95 72 29 89",
+        "shop": "dry_cleaning",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1654678,
+          2.9141064
+        ]
+      },
+      "id": "node/11465273081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465285391",
+        "check_date": "2023-12-29",
+        "name": "Sans Rival Express Pressing",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 91 66 41 71",
+        "shop": "dry_cleaning",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1663254,
+          2.9144048
+        ]
+      },
+      "id": "node/11465285391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465285447",
+        "check_date": "2023-12-29",
+        "name": "PRis Mode",
+        "note": "OSM ENSTP",
+        "phone": "+23790912243",
+        "shop": "fashion_accessories"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1673335,
+          2.9137332
+        ]
+      },
+      "id": "node/11465285447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465290170",
+        "check_date": "2023-12-29",
+        "name": "Sans Rival Tchoffo Sarl",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 79 81 23 50",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1663566,
+          2.9144315
+        ]
+      },
+      "id": "node/11465290170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465293233",
+        "check_date": "2023-12-29",
+        "name": "Olympic Barber",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 91 36 79 53",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1673018,
+          2.9137431
+        ]
+      },
+      "id": "node/11465293233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465294516",
+        "check_date": "2023-12-29",
+        "name": "Provenderie Centrale",
+        "note": "PSM ENSTP",
+        "phone": "+237 6 99 71 25 88",
+        "shop": "wholesale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1688125,
+          2.9128578
+        ]
+      },
+      "id": "node/11465294516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465340636",
+        "check_date": "2023-12-29",
+        "name": "Emmanuel Decor",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 77 22 67 62",
+        "shop": "interior_decoration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1725981,
+          2.9122415
+        ]
+      },
+      "id": "node/11465340636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465343373",
+        "check_date": "2023-12-29",
+        "name": "Mobi’l",
+        "note": "OSM ENSTP",
+        "shop": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1725586,
+          2.9120386
+        ]
+      },
+      "id": "node/11465343373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465359643",
+        "check_date": "2023-12-29",
+        "name": "Premier Bet",
+        "note": "OSM ENSTP",
+        "shop": "bookmaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1675989,
+          2.9138694
+        ]
+      },
+      "id": "node/11465359643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465367544",
+        "check_date": "2023-12-29",
+        "description": "Coiffure homme femme",
+        "name": "Étais Chris",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 70 14 42 70",
+        "shop": "hairdresser",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1686161,
+          2.9132775
+        ]
+      },
+      "id": "node/11465367544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465394371",
+        "check_date": "2023-12-29",
+        "name": "Tchaya Optic 2000 Sarl",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 77 48 25 77",
+        "shop": "optician"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1668116,
+          2.9146042
+        ]
+      },
+      "id": "node/11465394371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465566122",
+        "check_date": "2023-12-29",
+        "name": "Supergoal",
+        "note": "OSM ENSTP",
+        "shop": "bookmaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1665159,
+          2.914746
+        ]
+      },
+      "id": "node/11465566122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465774524",
+        "addr:postcode": "245 EBOLOWA",
+        "check_date": "2023-12-29",
+        "name": "MATGENIE AGENCE DU SUD",
+        "note": "OSM ENSTP",
+        "phone": "+237 2 42 60 59 51",
+        "shop": "hifi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1706647,
+          2.9204387
+        ]
+      },
+      "id": "node/11465774524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11466819848",
+        "name": "Supergoal",
+        "shop": "bookmaker",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1501819,
+          2.9193291
+        ]
+      },
+      "id": "node/11466819848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11466820159",
+        "name": "Supérette Le Philipien",
+        "shop": "pastry",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1507471,
+          2.9197853
+        ]
+      },
+      "id": "node/11466820159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468717821",
+        "check_date": "2023-12-30",
+        "note": "OSM ENSTP",
+        "shop": "hardware"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1660152,
+          2.9346636
+        ]
+      },
+      "id": "node/11468717821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468731407",
+        "check_date": "2023-12-30",
+        "name": "Chic Fashion",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 55 71 25 63",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1652086,
+          2.9276278
+        ]
+      },
+      "id": "node/11468731407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468800294",
+        "name": "Exposition De Bois",
+        "shop": "bed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1502678,
+          2.915469
+        ]
+      },
+      "id": "node/11468800294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468954217",
+        "check_date": "2023-12-30",
+        "name": "Quincaillerie Bilone",
+        "shop": "hardware"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1571407,
+          2.9365321
+        ]
+      },
+      "id": "node/11468954217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469022478",
+        "check_date": "2023-12-30",
+        "name": "SUPERGOAL",
+        "shop": "bookmaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1548117,
+          2.9302368
+        ]
+      },
+      "id": "node/11469022478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469885811",
+        "check_date": "2023-12-30",
+        "name": "Prolinge Pressing",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 99 67 19 90",
+        "shop": "dry_cleaning",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1553791,
+          2.9296902
+        ]
+      },
+      "id": "node/11469885811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469886932",
+        "check_date": "2023-12-30",
+        "name": "Pressing Elegancia",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 99 23 70 63",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1616423,
+          2.9253363
+        ]
+      },
+      "id": "node/11469886932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469899842",
+        "shop": "dry_cleaning",
+        "survey:date": "2023-12-30",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1485147,
+          2.9205854
+        ]
+      },
+      "id": "node/11469899842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469899850",
+        "check_date": "2024-01-01",
+        "name": "FOKOU",
+        "shop": "bookmaker",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1499258,
+          2.919327
+        ]
+      },
+      "id": "node/11469899850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469902179",
+        "shop": "beverages",
+        "survey:date": "2023-12-30",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1485079,
+          2.9211318
+        ]
+      },
+      "id": "node/11469902179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469909522",
+        "check_date": "2023-12-30",
+        "shop": "beauty"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1623419,
+          2.9261068
+        ]
+      },
+      "id": "node/11469909522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11470011977",
+        "butcher": "beef",
+        "name": "Mon ami le boucher",
+        "shop": "butcher",
+        "survey:date": "2023-12-30",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.158554,
+          2.9123023
+        ]
+      },
+      "id": "node/11470011977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11470011978",
+        "shop": "country_store",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1581305,
+          2.9117484
+        ]
+      },
+      "id": "node/11470011978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472590137",
+        "check_date": "2023-12-31",
+        "name": "Misfest Pressing",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 96 96 40 07",
+        "shop": "dry_cleaning",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1556016,
+          2.9207691
+        ]
+      },
+      "id": "node/11472590137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472595754",
+        "check_date": "2023-12-31",
+        "name": "1XBET",
+        "shop": "bookmaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1544535,
+          2.9238266
+        ]
+      },
+      "id": "node/11472595754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472628850",
+        "check_date": "2023-12-31",
+        "name": "Pompes Funèbres La Paix",
+        "shop": "funeral_directors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1549339,
+          2.9241453
+        ]
+      },
+      "id": "node/11472628850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472645041",
+        "check_date": "2023-12-31",
+        "name": "SUPERGOAL",
+        "shop": "bookmaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1448762,
+          2.9270083
+        ]
+      },
+      "id": "node/11472645041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472663208",
+        "name": "Boulangerie Deli",
+        "shop": "supermarket",
+        "survey:date": "2023-12-31",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1494688,
+          2.90717
+        ]
+      },
+      "id": "node/11472663208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472663211",
+        "name": "abattoir d'ebolowa",
+        "shop": "butcher",
+        "survey:date": "2023-12-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1534233,
+          2.9086045
+        ]
+      },
+      "id": "node/11472663211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472708549",
+        "check_date": "2023-12-31",
+        "name": "Alimentation Mine Yenjok D’Abang",
+        "shop": "nutrition_supplements"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1365509,
+          2.9290925
+        ]
+      },
+      "id": "node/11472708549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472812804",
+        "self_service": "no",
+        "shop": "laundry",
+        "survey:date": "2023-12-31",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1530629,
+          2.8958133
+        ]
+      },
+      "id": "node/11472812804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11480777376",
+        "check_date": "2024-01-02",
+        "name": "Complexe Commercial Staelle",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1503525,
+          2.9204227
+        ]
+      },
+      "id": "node/11480777376"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:16:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468892797",
+        "addr:city": "Ebolowa",
+        "amenity": "courthouse",
+        "name": "Tribunal De Grande Instance De Mvila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1455445,
+          2.9182941
+        ]
+      },
+      "id": "node/11468892797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468892799",
+        "addr:city": "Ebolowa",
+        "amenity": "courthouse",
+        "name": "Palais De Justice",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.146321,
+          2.9195345
+        ]
+      },
+      "id": "node/11468892799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469838975",
+        "amenity": "courthouse",
+        "level": "0",
+        "name": "Cours d'appel du Sud",
+        "survey:date": "2023-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1466245,
+          2.919417
+        ]
+      },
+      "id": "node/11469838975"
+    }
+  ]
+}

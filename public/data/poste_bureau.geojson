@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:15:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472652736",
+        "amenity": "post_office",
+        "check_date": "2023-12-31",
+        "name": "CAMPOST Ebolowa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1496361,
+          2.9229209
+        ]
+      },
+      "id": "node/11472652736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11473068746",
+        "amenity": "post_office",
+        "name": "PDU et POS",
+        "survey:date": "2023-12-31",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1464231,
+          2.9245188
+        ]
+      },
+      "id": "node/11473068746"
+    }
+  ]
+}

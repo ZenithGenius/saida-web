@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:21:55Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472663208",
+        "name": "Boulangerie Deli",
+        "shop": "supermarket",
+        "survey:date": "2023-12-31",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1494688,
+          2.90717
+        ]
+      },
+      "id": "node/11472663208"
+    }
+  ]
+}

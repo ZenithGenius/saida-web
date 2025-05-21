@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T15:18:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408233141",
+        "addr:city": "Ebolowa",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "contact:phone": "233 43 11 11",
+        "contact:website": "www.societegenerale.cm",
+        "name": "Société Générale Cameroun",
+        "short_name": "SGC"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1509712,
+              2.9192808
+            ],
+            [
+              11.1509929,
+              2.9192216
+            ],
+            [
+              11.1510901,
+              2.9192571
+            ],
+            [
+              11.1510684,
+              2.9193163
+            ],
+            [
+              11.1509712,
+              2.9192808
+            ]
+          ]
+        ]
+      },
+      "id": "way/408233141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408235988",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "contact:email": "comptaebnva.cca@afrigroupe.com",
+        "contact:phone": "222283949",
+        "name": "CCA Ebolowa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1513071,
+              2.9206604
+            ],
+            [
+              11.1511788,
+              2.9205926
+            ],
+            [
+              11.151301,
+              2.9203633
+            ],
+            [
+              11.151429,
+              2.9204309
+            ],
+            [
+              11.1513071,
+              2.9206604
+            ]
+          ]
+        ]
+      },
+      "id": "way/408235988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408237020",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "contact:phone": "696725280",
+        "contact:website": "www.laregional.sa.com",
+        "name": "La Régionale"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1499697,
+              2.9209721
+            ],
+            [
+              11.1498222,
+              2.9207939
+            ],
+            [
+              11.1499422,
+              2.9206948
+            ],
+            [
+              11.1500897,
+              2.920873
+            ],
+            [
+              11.1499697,
+              2.9209721
+            ]
+          ]
+        ]
+      },
+      "id": "way/408237020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448004719",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "name": "BICEC"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1506269,
+              2.9207642
+            ],
+            [
+              11.1506857,
+              2.9205506
+            ],
+            [
+              11.1507937,
+              2.9205803
+            ],
+            [
+              11.1507349,
+              2.9207939
+            ],
+            [
+              11.1506269,
+              2.9207642
+            ]
+          ]
+        ]
+      },
+      "id": "way/448004719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11472609326",
+        "amenity": "bank",
+        "check_date": "2023-12-31",
+        "name": "Afriland First Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1521271,
+          2.9200496
+        ]
+      },
+      "id": "node/11472609326"
+    }
+  ]
+}

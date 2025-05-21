@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-14T14:54:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11468595099",
+        "amenity": "kindergarten",
+        "check_date": "2023-12-30",
+        "name": "École Maternelle Bilingue Intégrale Sources Des Savoirs",
+        "note": "OSM ENSTP",
+        "phone": "+237 6 99 20 33 58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1688361,
+          2.9198863
+        ]
+      },
+      "id": "node/11468595099"
+    }
+  ]
+}
