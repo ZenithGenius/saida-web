@@ -128,13 +128,6 @@ const Map: React.FC = () => {
     }
   }, []);
 
-  // Sauvegarder les dessins dans localStorage quand ils changent
-  useEffect(() => {
-    if (drawnShapes.length > 0) {
-      localStorage.setItem('drawnShapes', JSON.stringify(drawnShapes));
-    }
-  }, [drawnShapes]);
-
   const loadLayerData = useCallback(async (layerConfig: LayerConfig) => {
     try {
       console.log("Starting to load data for:", layerConfig.filename);
@@ -241,7 +234,33 @@ const Map: React.FC = () => {
 
   const handleShapeCreated = (shape: DrawnShape) => {
     console.log("Shape created:", shape);
-    setDrawnShapes((prev) => [...prev, shape]);
+    setDrawnShapes((prev) => {
+      const newShapes = [...prev, shape];
+      localStorage.setItem('drawnShapes', JSON.stringify(newShapes));
+      return newShapes;
+    });
+  };
+
+  const handleShapeUpdate = (updatedShapes: DrawnShape[]) => {
+    setDrawnShapes(updatedShapes);
+    localStorage.setItem('drawnShapes', JSON.stringify(updatedShapes));
+  };
+
+  const handleShapeDelete = (index: number) => {
+    setDrawnShapes((prev) => {
+      const newShapes = prev.filter((_, i) => i !== index);
+      if (newShapes.length === 0) {
+        localStorage.removeItem('drawnShapes');
+      } else {
+        localStorage.setItem('drawnShapes', JSON.stringify(newShapes));
+      }
+      return newShapes;
+    });
+  };
+
+  const handleClearAllShapes = () => {
+    setDrawnShapes([]);
+    localStorage.removeItem('drawnShapes');
   };
 
   return (
@@ -256,6 +275,9 @@ const Map: React.FC = () => {
           onRouteRequest={handleRouteRequest}
           onToggleDrawing={handleToggleDrawing}
           drawnShapes={drawnShapes}
+          onShapeUpdate={handleShapeUpdate}
+          onShapeDelete={handleShapeDelete}
+          onClearAllShapes={handleClearAllShapes}
         />
       )}
       <Box sx={{ flexGrow: 1, height: "100%", position: "relative" }}>

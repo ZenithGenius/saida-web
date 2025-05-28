@@ -14,6 +14,8 @@ import {
   DialogActions,
   TextField,
   Alert,
+  IconButton,
+  ListItemSecondaryAction,
 } from "@mui/material";
 import {
   LineStyle,
@@ -23,6 +25,8 @@ import {
   Create,
   Delete,
   Download,
+  Edit,
+  DeleteOutline,
 } from "@mui/icons-material";
 import type { Feature } from "geojson";
 
@@ -36,35 +40,53 @@ interface DrawingShape {
 interface DrawingPanelProps {
   onToggleDrawing: (enabled: boolean) => void;
   shapes?: DrawingShape[];
+  onShapeUpdate?: (shapes: DrawingShape[]) => void;
+  onShapeDelete?: (index: number) => void;
+  onClearAllShapes?: () => void;
 }
 
 const DrawingPanel: React.FC<DrawingPanelProps> = ({
   onToggleDrawing,
   shapes = [],
+  onShapeUpdate,
+  onShapeDelete,
+  onClearAllShapes,
 }) => {
   const [drawingEnabled, setDrawingEnabled] = useState(false);
-  const [localShapes, setLocalShapes] = useState<DrawingShape[]>([]);
   const [selectedShape, setSelectedShape] = useState<DrawingShape | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [openDialog, setOpenDialog] = useState(false);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
+  const [previousShapesLength, setPreviousShapesLength] = useState(0);
   const [saveMessage, setSaveMessage] = useState<{
     type: "success" | "error";
     text: string;
   } | null>(null);
 
-  // Synchroniser les formes externes avec l'état local
+  // Synchroniser les nouvelles formes - seulement quand une nouvelle forme est ajoutée
   useEffect(() => {
-    if (shapes.length > 0) {
-      setLocalShapes(shapes);
-      // Si une nouvelle forme est ajoutée, ouvrir le dialogue pour l'éditer
+    // Vérifier si une nouvelle forme a été ajoutée (et non pas modifiée)
+    if (shapes.length > previousShapesLength) {
       const lastShape = shapes[shapes.length - 1];
       if (lastShape && !lastShape.title) {
         setSelectedShape(lastShape);
+        setSelectedIndex(shapes.length - 1);
+        setTitle("");
+        setDescription("");
         setOpenDialog(true);
       }
     }
-  }, [shapes]);
+    // Mettre à jour la longueur précédente
+    setPreviousShapesLength(shapes.length);
+  }, [shapes, previousShapesLength]);
+
+  // Réinitialiser le compteur si toutes les formes sont supprimées
+  useEffect(() => {
+    if (shapes.length === 0) {
+      setPreviousShapesLength(0);
+    }
+  }, [shapes.length]);
 
   const handleToggleDrawing = () => {
     const newState = !drawingEnabled;
@@ -72,18 +94,43 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
     onToggleDrawing(newState);
   };
 
+  const handleEditShape = (shape: DrawingShape, index: number) => {
+    setSelectedShape(shape);
+    setSelectedIndex(index);
+    setTitle(shape.title || "");
+    setDescription(shape.description || "");
+    setOpenDialog(true);
+  };
+
   const handleSaveShape = () => {
-    if (selectedShape) {
-      const shapesWithMeta = localShapes.map((shape) =>
-        shape === selectedShape ? { ...shape, title, description } : shape
-      );
-      setLocalShapes(shapesWithMeta);
+    if (selectedShape && selectedIndex !== null && onShapeUpdate) {
+      const updatedShapes = [...shapes];
+      updatedShapes[selectedIndex] = {
+        ...selectedShape,
+        title,
+        description,
+      };
+      onShapeUpdate(updatedShapes);
+      
       setOpenDialog(false);
+      setSelectedShape(null);
+      setSelectedIndex(null);
       setTitle("");
       setDescription("");
       setSaveMessage({
         type: "success",
-        text: "Forme enregistrée avec succès",
+        text: "Forme mise à jour avec succès",
+      });
+      setTimeout(() => setSaveMessage(null), 3000);
+    }
+  };
+
+  const handleDeleteShape = (index: number) => {
+    if (onShapeDelete) {
+      onShapeDelete(index);
+      setSaveMessage({
+        type: "success",
+        text: "Forme supprimée",
       });
       setTimeout(() => setSaveMessage(null), 3000);
     }
@@ -93,7 +140,7 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
     try {
       const geoJSON = {
         type: "FeatureCollection",
-        features: localShapes.map((shape) => ({
+        features: shapes.map((shape) => ({
           ...shape.geoJSON,
           properties: {
             ...shape.geoJSON.properties,
@@ -126,12 +173,14 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
   };
 
   const handleClearAll = () => {
-    setLocalShapes([]);
-    setSaveMessage({
-      type: "success",
-      text: "Toutes les formes ont été supprimées",
-    });
-    setTimeout(() => setSaveMessage(null), 3000);
+    if (onClearAllShapes) {
+      onClearAllShapes();
+      setSaveMessage({
+        type: "success",
+        text: "Toutes les formes ont été supprimées",
+      });
+      setTimeout(() => setSaveMessage(null), 3000);
+    }
   };
 
   return (
@@ -206,14 +255,14 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
       <Divider sx={{ my: 2 }} />
 
       <Typography variant="subtitle1" gutterBottom>
-        Formes Enregistrées ({localShapes.length})
+        Formes Enregistrées ({shapes.length})
       </Typography>
 
-      {localShapes.length > 0 ? (
+      {shapes.length > 0 ? (
         <>
-          <List dense sx={{ maxHeight: 150, overflow: "auto" }}>
-            {localShapes.map((shape, index) => (
-              <ListItem key={index}>
+          <List dense sx={{ maxHeight: 200, overflow: "auto" }}>
+            {shapes.map((shape, index) => (
+              <ListItem key={index} sx={{ pr: 10 }}>
                 <ListItemIcon>
                   {shape.type === "marker" ? (
                     <Room fontSize="small" />
@@ -229,23 +278,44 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
                   primary={shape.title || `Forme ${index + 1}`}
                   secondary={
                     shape.description
-                      ? shape.description.length > 30
-                        ? `${shape.description.substring(0, 30)}...`
+                      ? shape.description.length > 25
+                        ? `${shape.description.substring(0, 25)}...`
                         : shape.description
                       : `Type: ${shape.type}`
                   }
                 />
+                <ListItemSecondaryAction>
+                  <IconButton
+                    edge="end"
+                    aria-label="edit"
+                    size="small"
+                    onClick={() => handleEditShape(shape, index)}
+                    sx={{ mr: 0.5 }}
+                  >
+                    <Edit fontSize="small" />
+                  </IconButton>
+                  <IconButton
+                    edge="end"
+                    aria-label="delete"
+                    size="small"
+                    onClick={() => handleDeleteShape(index)}
+                    color="error"
+                  >
+                    <DeleteOutline fontSize="small" />
+                  </IconButton>
+                </ListItemSecondaryAction>
               </ListItem>
             ))}
           </List>
 
-          <Box sx={{ mt: 2, display: "flex", gap: 1 }}>
+          <Box sx={{ mt: 2, display: "flex", gap: 1, flexWrap: "wrap" }}>
             <Button
               variant="outlined"
               startIcon={<Delete />}
               color="error"
               size="small"
               onClick={handleClearAll}
+              disabled={!onClearAllShapes}
             >
               Tout Supprimer
             </Button>
@@ -274,7 +344,9 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
       )}
 
       <Dialog open={openDialog} onClose={() => setOpenDialog(false)}>
-        <DialogTitle>Enregistrer la Forme</DialogTitle>
+        <DialogTitle>
+          {selectedShape?.title ? "Modifier la Forme" : "Enregistrer la Forme"}
+        </DialogTitle>
         <DialogContent>
           <TextField
             autoFocus
@@ -284,6 +356,7 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
             fullWidth
             value={title}
             onChange={(e) => setTitle(e.target.value)}
+            placeholder={`Forme ${selectedIndex !== null ? selectedIndex + 1 : ""}`}
           />
           <TextField
             margin="dense"
@@ -294,12 +367,13 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
             rows={3}
             value={description}
             onChange={(e) => setDescription(e.target.value)}
+            placeholder="Description optionnelle de la forme..."
           />
         </DialogContent>
         <DialogActions>
           <Button onClick={() => setOpenDialog(false)}>Annuler</Button>
           <Button onClick={handleSaveShape} variant="contained">
-            Enregistrer
+            {selectedShape?.title ? "Modifier" : "Enregistrer"}
           </Button>
         </DialogActions>
       </Dialog>

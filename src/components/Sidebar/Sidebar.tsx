@@ -62,6 +62,9 @@ interface SidebarProps {
   onRouteRequest: (start: [number, number], end: [number, number]) => void;
   onToggleDrawing: (enabled: boolean) => void;
   drawnShapes?: DrawnShape[];
+  onShapeUpdate?: (shapes: DrawnShape[]) => void;
+  onShapeDelete?: (index: number) => void;
+  onClearAllShapes?: () => void;
 }
 
 const TabPanel = (props: TabPanelProps) => {
@@ -86,6 +89,9 @@ const Sidebar: React.FC<SidebarProps> = ({
   onRouteRequest,
   onToggleDrawing,
   drawnShapes = [],
+  onShapeUpdate,
+  onShapeDelete,
+  onClearAllShapes,
 }) => {
   const { isSidebarOpen, toggleSidebar } = useResponsive();
   const [value, setValue] = useState(0);
@@ -311,6 +317,9 @@ const Sidebar: React.FC<SidebarProps> = ({
           <DrawingPanel 
             onToggleDrawing={onToggleDrawing} 
             shapes={drawnShapes}
+            onShapeUpdate={onShapeUpdate}
+            onShapeDelete={onShapeDelete}
+            onClearAllShapes={onClearAllShapes}
           />
         </TabPanel>
       </Box>
