@@ -151,8 +151,8 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
         }
       }
       
-      // If no match found, return BASE style
-      return getLayerStyle(layerCategories.BASE);
+      // If no match found, return default style
+      return defaultStyle;
     } catch (error) {
       console.error("Error getting style for category:", category, error);
       return defaultStyle;
