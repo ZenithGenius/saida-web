@@ -25,7 +25,6 @@ export const layerCategories = {
   LOGEMENT: "Infrastructures de logement",
   RELIGIEUX: "Infrastructures religieuses",
   LOISIRS: "Infrastructures de loisirs",
-  BASE: "Couches de base",
 } as const;
 
 type LayerCategory = (typeof layerCategories)[keyof typeof layerCategories];
@@ -101,14 +100,7 @@ const styles: Record<LayerCategory, LayerStyle> = {
     fillColor: "#ffff00",
     fillOpacity: 0.5,
     opacity: 1,
-  },
-  [layerCategories.BASE]: {
-    color: "#888888",
-    weight: 1,
-    fillColor: "#888888",
-    fillOpacity: 0.3,
-    opacity: 0.8,
-  },
+  }
 };
 
 export const getLayerStyle = (
