@@ -133,7 +133,7 @@ const Map: React.FC = () => {
       console.log("Starting to load data for:", layerConfig.filename);
       setLoadingStates((prev) => ({ ...prev, [layerConfig.id]: true }));
 
-      const data = await loadGeoJson(`/data/${layerConfig.filename}`);
+      const data = await loadGeoJson(`${layerConfig.filename}`);
       console.log("Loaded data:", data);
       setLoadedData((prev) => ({ ...prev, [layerConfig.id]: data }));
 

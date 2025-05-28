@@ -120,10 +120,10 @@ const DrawTools: React.FC<DrawToolsProps> = ({
     };
 
     // Événement d'édition de forme
-    const onEdited = (e: L.LeafletEvent) => {
+    const onEdited = (_e: L.LeafletEvent) => {
       if (onShapeEdited) {
         const editedShapes: DrawnShape[] = [];
-        const event = e as unknown as { layers: L.LayerGroup };
+        const event = _e as unknown as { layers: L.LayerGroup };
         
         event.layers.eachLayer((layer: L.Layer & { toGeoJSON?: () => Feature }) => {
           if (layer.toGeoJSON) {
@@ -171,7 +171,7 @@ const DrawTools: React.FC<DrawToolsProps> = ({
     };
 
     // Événement de suppression de forme
-    const onDeleted = (e: L.LeafletEvent) => {
+    const onDeleted = (_e: L.LeafletEvent) => {
       if (onShapeDeleted) {
         // Récupérer toutes les formes restantes du FeatureGroup
         const remainingShapes: DrawnShape[] = [];
@@ -242,14 +242,19 @@ const DrawTools: React.FC<DrawToolsProps> = ({
         // Ajouter chaque couche individuelle au FeatureGroup
         layer.eachLayer((l) => {
           // Stocker le type dans les propriétés de la couche pour l'édition
+          const featureProps: any = {
+            ...((l as any).feature?.properties || {}),
+            type: shape.type,
+          };
+          if ('title' in shape && typeof shape.title !== 'undefined') {
+            featureProps.title = shape.title;
+          }
+          if ('description' in shape && typeof shape.description !== 'undefined') {
+            featureProps.description = shape.description;
+          }
           (l as any).feature = {
             ...((l as any).feature || {}),
-            properties: {
-              ...((l as any).feature?.properties || {}),
-              type: shape.type,
-              title: shape.title,
-              description: shape.description
-            }
+            properties: featureProps
           };
           drawnItemsRef.current!.addLayer(l);
         });

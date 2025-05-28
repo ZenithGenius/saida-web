@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Centres de santé",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "Centre Medical De Secteur", "Type": "Centre de santé", "Téléphone": "2222284050", "X": 11.1710089, "Y": 2.9235351, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1710089, 2.9235351 ] } },
+{ "type": "Feature", "properties": { "Noms": "Centre De Sante Soins Et Preventif D'Ebolowa", "Type": "Centre de santé", "Téléphone": "+237 6 96 36 83 69", "X": 11.1622913, "Y": 2.9357868, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1622913, 2.9357868 ] } },
+{ "type": "Feature", "properties": { "Noms": "Sante Sans Prix", "Type": "Centre de santé", "Téléphone": null, "X": 11.1689053, "Y": 2.9374819, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1689053, 2.9374819 ] } },
+{ "type": "Feature", "properties": { "Noms": "Centre Medical Ebolowa Camprevent", "Type": "Centre de santé", "Téléphone": "+237 6 78 64 20 15", "X": 11.1521589, "Y": 2.9290778, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1521589, 2.9290778 ] } },
+{ "type": "Feature", "properties": { "Noms": "Centre De Sante Emmergence", "Type": "Centre de santé", "Téléphone": null, "X": 11.1621738, "Y": 2.9256861, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1621738, 2.9256861 ] } },
+{ "type": "Feature", "properties": { "Noms": "St John Medical Center", "Type": "Centre de santé", "Téléphone": "+237 6 77 10 38 71", "X": 11.1599241, "Y": 2.9219007, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1599241, 2.9219007 ] } },
+{ "type": "Feature", "properties": { "Noms": "Centre Medical Le Bon Berger", "Type": "Centre de santé", "Téléphone": "+237 6 94 85 57 62", "X": 11.1634438, "Y": 2.9211391, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1634438, 2.9211391 ] } },
+{ "type": "Feature", "properties": { "Noms": "Cabinet De Soins Les Beatitudes", "Type": "Centre de santé", "Téléphone": "+237 6 97 81 63 77", "X": 11.1649324, "Y": 2.9137534, "layer": "hopitaux", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/h�pitals.shp|layername=h�pitals" }, "geometry": { "type": "Point", "coordinates": [ 11.1649324, 2.9137534 ] } }
+]
+}

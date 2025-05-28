@@ -175,11 +175,11 @@ const DrawingPanel: React.FC<DrawingPanelProps> = ({
   const handleClearAll = () => {
     if (onClearAllShapes) {
       onClearAllShapes();
-      setSaveMessage({
-        type: "success",
-        text: "Toutes les formes ont été supprimées",
-      });
-      setTimeout(() => setSaveMessage(null), 3000);
+    setSaveMessage({
+      type: "success",
+      text: "Toutes les formes ont été supprimées",
+    });
+    setTimeout(() => setSaveMessage(null), 3000);
     }
   };
 

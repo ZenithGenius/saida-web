@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Préfecture",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "Prefecture", "Quartier": "Angale", "Accessibilité": "en bordure de route", "X": 11.160104233, "Y": 2.923533, "layer": "Prefecture", "path": "D:\\NIVEAU 5\\WEBMAPPING\\cc webmapping\\services_administratifs_.shx|layername=services_administratifs_" }, "geometry": { "type": "Point", "coordinates": [ 11.160104233, 2.923533 ] } }
+]
+}

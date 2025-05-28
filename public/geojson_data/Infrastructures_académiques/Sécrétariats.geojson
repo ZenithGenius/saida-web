@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Sécrétariats",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Nom": "Zone secretariat nko'ovos", "X": 738867.5795, "Y": 323072.1364 }, "geometry": { "type": "Point", "coordinates": [ 11.148911572580191, 2.920843736931002 ] } },
+{ "type": "Feature", "properties": { "id": 2, "Nom": "Zone secretariat montee jungle", "X": 740571.023, "Y": 323050.1314 }, "geometry": { "type": "Point", "coordinates": [ 11.164228458668338, 2.920615248486425 ] } },
+{ "type": "Feature", "properties": { "id": 3, "Nom": "Secretariat campus lycee classique", "X": 740701.3469, "Y": 322922.2089 }, "geometry": { "type": "Point", "coordinates": [ 11.165398101896521, 2.919456485660364 ] } }
+]
+}

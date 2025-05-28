@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Stations services",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "Station Tradex", "Description": null, "Quartier": "Centre-ville", "X": 11.152495, "Y": 2.9198253, "layer": "Stations services", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/Stations services.kml|layername=Stations services" }, "geometry": { "type": "Point", "coordinates": [ 11.152495, 2.9198253 ] } },
+{ "type": "Feature", "properties": { "Noms": "TotalEnergies Nko'ovos", "Description": null, "Quartier": "Centre-ville", "X": 11.1518756, "Y": 2.9196109, "layer": "Stations services", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/Stations services.kml|layername=Stations services" }, "geometry": { "type": "Point", "coordinates": [ 11.1518756, 2.9196109 ] } },
+{ "type": "Feature", "properties": { "Noms": "Station MRS", "Description": null, "Quartier": "Centre-ville", "X": 11.1514161, "Y": 2.9201672, "layer": "Stations services", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/Stations services.kml|layername=Stations services" }, "geometry": { "type": "Point", "coordinates": [ 11.1514161, 2.9201672 ] } },
+{ "type": "Feature", "properties": { "Noms": "TotalEnergies Sicom", "Description": null, "Quartier": "Centre-ville", "X": 11.1512235, "Y": 2.9206668, "layer": "Stations services", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/Stations services.kml|layername=Stations services" }, "geometry": { "type": "Point", "coordinates": [ 11.1512235, 2.9206668 ] } },
+{ "type": "Feature", "properties": { "Noms": "Tradex Ebolowa Si 2", "Description": "seule station du quartier", "Quartier": "Ebolowa si II", "X": 11.149213, "Y": 2.906817, "layer": "Stations services", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/Stations services.kml|layername=Stations services" }, "geometry": { "type": "Point", "coordinates": [ 11.149213, 2.906817 ] } },
+{ "type": "Feature", "properties": { "Noms": "Station Essinguili", "Description": "seule station du quartier", "Quartier": "Essinguili", "X": 11.1714025, "Y": 2.911936, "layer": "Stations services", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/Stations services.kml|layername=Stations services" }, "geometry": { "type": "Point", "coordinates": [ 11.1714025, 2.911936 ] } },
+{ "type": "Feature", "properties": { "Noms": "OLA Energy", "Description": "OLA Energy", "Quartier": "Centre-ville", "X": 11.1517763, "Y": 2.9189766, "layer": "Stations services", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/Stations services.kml|layername=Stations services" }, "geometry": { "type": "Point", "coordinates": [ 11.1517763, 2.9189766 ] } }
+]
+}

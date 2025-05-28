@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "Restaurants",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "O'DJALE", "description": "restaurant type africain", "X": 11.1560291, "Y": 2.9312965, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1560291, 2.9312965 ] } },
+{ "type": "Feature", "properties": { "Noms": "Restaurant Fleur D'or", "description": null, "X": 11.1503512, "Y": 2.9222658, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1503512, 2.9222658 ] } },
+{ "type": "Feature", "properties": { "Noms": "Cercle Municipal", "description": "Restaurant calme et reposant", "X": 11.1498723, "Y": 2.9208442, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1498723, 2.9208442 ] } },
+{ "type": "Feature", "properties": { "Noms": "Le Grand Bazar", "description": "restaurant-glacier-pizerria", "X": 11.1563392, "Y": 2.9206649, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1563392, 2.9206649 ] } },
+{ "type": "Feature", "properties": { "Noms": "La Belle Histoire", "description": "en bordure de route", "X": 11.1615234, "Y": 2.9252307, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1615234, 2.9252307 ] } },
+{ "type": "Feature", "properties": { "Noms": "Au Mboa", "description": null, "X": 11.1618152, "Y": 2.9249219, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1618152, 2.9249219 ] } },
+{ "type": "Feature", "properties": { "Noms": "Restaurant La Fourchette du Wouri", "description": null, "X": 11.1508124, "Y": 2.9284315, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1508124, 2.9284315 ] } },
+{ "type": "Feature", "properties": { "Noms": "Au Village Chez Georgy (nouvelle adresse)", "description": null, "X": 11.158819, "Y": 2.92241, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.158819, 2.92241 ] } },
+{ "type": "Feature", "properties": { "Noms": "O Saveurs Oublies", "description": "En bordure de route", "X": 11.1677765, "Y": 2.9134176, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1677765, 2.9134176 ] } },
+{ "type": "Feature", "properties": { "Noms": "Le Grill", "description": null, "X": 11.1658198, "Y": 2.9142065, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1658198, 2.9142065 ] } },
+{ "type": "Feature", "properties": { "Noms": "Le Regal Fast Food", "description": "Fast food", "X": 11.1664902, "Y": 2.9140601, "layer": "restaurants", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/restaurants.kml|layername=restaurants" }, "geometry": { "type": "Point", "coordinates": [ 11.1664902, 2.9140601 ] } }
+]
+}

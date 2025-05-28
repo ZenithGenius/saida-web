@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Cliniques",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "Denver", "Type": "clinic", "Téléphone": "+237 6 94 77 17 34", "X": 11.1634385, "Y": 2.9123995, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1634385, 2.9123995 ] } },
+{ "type": "Feature", "properties": { "Noms": "Clinique Les Saints Archanges", "Type": "clinic", "Téléphone": "+237 6 99 92 88 62", "X": 11.1691614, "Y": 2.9180977, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1691614, 2.9180977 ] } },
+{ "type": "Feature", "properties": { "Noms": "Centre De Sante De L'Espoir", "Type": "clinic", "Téléphone": null, "X": 11.1640191, "Y": 2.94202, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1640191, 2.94202 ] } },
+{ "type": "Feature", "properties": { "Noms": "Cabinet Medical Lion KING Sarl", "Type": "clinic", "Téléphone": "+237 6 95 10 14 18", "X": 11.1516485, "Y": 2.9299714, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1516485, 2.9299714 ] } },
+{ "type": "Feature", "properties": { "Noms": "Siege Le Bon Samaritain", "Type": "clinic", "Téléphone": null, "X": 11.1618136, "Y": 2.9255598, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1618136, 2.9255598 ] } },
+{ "type": "Feature", "properties": { "Noms": "Dispensaire Catholique Saint Anne Et Joachim D'Abang", "Type": "clinic", "Téléphone": null, "X": 11.1340457, "Y": 2.9349335, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1340457, 2.9349335 ] } },
+{ "type": "Feature", "properties": { "Noms": "Infirmerie", "Type": "clinic", "Téléphone": null, "X": 11.1655916, "Y": 2.9175723, "layer": "clinics", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/shp t�l�charg�\/clinics.shp|layername=clinics" }, "geometry": { "type": "Point", "coordinates": [ 11.1655916, 2.9175723 ] } }
+]
+}

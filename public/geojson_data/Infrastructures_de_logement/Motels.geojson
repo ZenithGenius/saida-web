@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Motels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Herberment Rosa", "tourism": "motel", "phone": null, "X": 11.1616368, "Y": 2.9249236, "layer": null, "path": null }, "geometry": { "type": "Point", "coordinates": [ 11.1616368, 2.9249236 ] } },
+{ "type": "Feature", "properties": { "name": "Motel le Confort", "tourism": "motel", "phone": "677581405", "X": 11.1486783, "Y": 2.9060263, "layer": null, "path": null }, "geometry": { "type": "Point", "coordinates": [ 11.1486783, 2.9060263 ] } },
+{ "type": "Feature", "properties": { "name": "Les Anges Du Ciel", "tourism": "motel", "phone": null, "X": 11.1551059, "Y": 2.9170813, "layer": null, "path": null }, "geometry": { "type": "Point", "coordinates": [ 11.1551059, 2.9170813 ] } },
+{ "type": "Feature", "properties": { "name": "Jeeps", "tourism": "motel", "phone": null, "X": 11.1541916, "Y": 2.9177383, "layer": null, "path": null }, "geometry": { "type": "Point", "coordinates": [ 11.1541916, 2.9177383 ] } }
+]
+}

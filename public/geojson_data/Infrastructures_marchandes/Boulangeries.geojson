@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Boulangeries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "Nteu_dem", "Description": "Boulangerie artisanale", "Quartier": "New_bell", "X": 11.14562, "Y": 2.92876667, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.14562, 2.928766666666667 ] } },
+{ "type": "Feature", "properties": { "Noms": "Leukefak", "Description": "Boulangerie artisanale", "Quartier": "Angalé", "X": 11.16594333, "Y": 2.927545, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.165943333333333, 2.927545 ] } },
+{ "type": "Feature", "properties": { "Noms": "Zouma", "Description": "Boulangerie artisanale", "Quartier": "Mekalat", "X": 11.16914, "Y": 2.91266667, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.16914, 2.912666666666667 ] } },
+{ "type": "Feature", "properties": { "Noms": "sans rival 2", "Description": "Boulangerie moderne", "Quartier": "Mekalat", "X": 11.16638167, "Y": 2.91433833, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.166381666666666, 2.914338333333333 ] } },
+{ "type": "Feature", "properties": { "Noms": "sans rival 1", "Description": "Boulangerie moderne", "Quartier": "Nko'ovos", "X": 11.15034667, "Y": 2.921645, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.150346666666669, 2.921645 ] } },
+{ "type": "Feature", "properties": { "Noms": "Staelle", "Description": "Boulangerie moderne", "Quartier": "Nko'ovos", "X": 11.15033167, "Y": 2.92023167, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.150331666666665, 2.920231666666667 ] } },
+{ "type": "Feature", "properties": { "Noms": "DELI 1", "Description": "Boulangerie moderne", "Quartier": "Centre-ville", "X": 11.15079333, "Y": 2.91961167, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.150793333333334, 2.919611666666667 ] } },
+{ "type": "Feature", "properties": { "Noms": "DELI 2", "Description": "Boulangerie moderne", "Quartier": "Ebolowa si II", "X": 11.149385, "Y": 2.90721667, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.149385, 2.907216666666666 ] } },
+{ "type": "Feature", "properties": { "Noms": "Boulangerie d'oding", "Description": "Boulangerie artisanale", "Quartier": "Oding", "X": 11.160725, "Y": 2.90090333, "layer": "Boulangerie_2d", "path": "D:\/NIVEAU 5\/tp RA\/Boulangerie_2d.shx|layername=Boulangerie_2d" }, "geometry": { "type": "Point", "coordinates": [ 11.160725, 2.900903333333333 ] } }
+]
+}

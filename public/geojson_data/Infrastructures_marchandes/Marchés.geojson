@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Marchés",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "Marche du Lac", "Description": "Marché central", "Quartier": "Nko'ovos", "X": 11.153422, "Y": 2.9221465, "layer": "MARCHE complet", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/MARCHE complet.kml|layername=MARCHE complet" }, "geometry": { "type": "Point", "coordinates": [ 11.153422, 2.9221465 ] } },
+{ "type": "Feature", "properties": { "Noms": "Marche Samba", "Description": null, "Quartier": "Ebolowa si II", "X": 11.1492734, "Y": 2.9103147, "layer": "MARCHE complet", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/MARCHE complet.kml|layername=MARCHE complet" }, "geometry": { "type": "Point", "coordinates": [ 11.1492734, 2.9103147 ] } },
+{ "type": "Feature", "properties": { "Noms": "Marche Oyenga", "Description": "beaucoup plus de produit maraichers", "Quartier": "Oyenga", "X": 11.1509958, "Y": 2.9246088, "layer": "MARCHE complet", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/MARCHE complet.kml|layername=MARCHE complet" }, "geometry": { "type": "Point", "coordinates": [ 11.1509958, 2.9246088 ] } },
+{ "type": "Feature", "properties": { "Noms": "Marche New Bell", "Description": null, "Quartier": "New_bell", "X": 11.1443201, "Y": 2.9275347, "layer": "MARCHE complet", "path": "D:\/NIVEAU 5\/WEBMAPPING\/cc webmapping\/MARCHE complet.kml|layername=MARCHE complet" }, "geometry": { "type": "Point", "coordinates": [ 11.1443201, 2.9275347 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Autres (Infrastructures de sécurité)",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Noms": "Tribunal De Grande Instance De Mvila", "Type": "Autres", "X": 11.1455445, "Y": 2.9182941, "layer": "Autres", "path": "D:\\NIVEAU 5\\WEBMAPPING\\cc webmapping\\shp t�l�charg�\\cour s�curit�.shx|layername=cour s�curit�" }, "geometry": { "type": "Point", "coordinates": [ 11.1455445, 2.9182941 ] } },
+{ "type": "Feature", "properties": { "Noms": "Palais De Justice", "Type": "Autres", "X": 11.146321, "Y": 2.9195345, "layer": "Autres", "path": "D:\\NIVEAU 5\\WEBMAPPING\\cc webmapping\\shp t�l�charg�\\cour s�curit�.shx|layername=cour s�curit�" }, "geometry": { "type": "Point", "coordinates": [ 11.146321, 2.9195345 ] } },
+{ "type": "Feature", "properties": { "Noms": "Cours d'appel du Sud", "Type": "Autres", "X": 11.1466245, "Y": 2.919417, "layer": "Autres", "path": "D:\\NIVEAU 5\\WEBMAPPING\\cc webmapping\\shp t�l�charg�\\cour s�curit�.shx|layername=cour s�curit�" }, "geometry": { "type": "Point", "coordinates": [ 11.1466245, 2.919417 ] } },
+{ "type": "Feature", "properties": { "Noms": null, "Type": "Autres", "X": 11.1470796, "Y": 2.9194965, "layer": "Autres", "path": "D:\\NIVEAU 5\\WEBMAPPING\\cc webmapping\\shp t�l�charg�\\police.shx|layername=police" }, "geometry": { "type": "Point", "coordinates": [ 11.1470796, 2.9194965 ] } },
+{ "type": "Feature", "properties": { "Noms": "Prison Centrale d'Ebolowa", "Type": "Autres", "X": 11.1430479, "Y": 2.9210231, "layer": "Autres", "path": "D:\\NIVEAU 5\\WEBMAPPING\\cc webmapping\\shp t�l�charg�\\prison.shx|layername=prison" }, "geometry": { "type": "Point", "coordinates": [ 11.1430479, 2.9210231 ] } },
+{ "type": "Feature", "properties": { "Noms": "Legion de Gendarmerie", "Type": "Autres", "X": 11.14412334, "Y": 2.91666846, "layer": "Autres", "path": null }, "geometry": { "type": "Point", "coordinates": [ 11.144123339003464, 2.916668459761008 ] } }
+]
+}

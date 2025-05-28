@@ -3,10 +3,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: saida-web
+    container_name: saida-web-app
     ports:
       - "8080:80"
     volumes:
-      # Montage des données GeoJSON (si nécessaire)
-      - ./public/data:/usr/share/nginx/html/data
+      # Montage spécifique des données GeoJSON seulement
+      - ./public/geojson_data:/usr/share/nginx/html/geojson_data
     restart: unless-stopped

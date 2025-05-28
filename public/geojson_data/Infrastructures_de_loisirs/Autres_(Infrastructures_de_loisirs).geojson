@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Autres (Infrastructures de loisirs)",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Nom": "Lisboa", "X": 740929.8471, "Y": 322283.2554 }, "geometry": { "type": "Point", "coordinates": [ 11.167441682578312, 2.913676006816978 ] } },
+{ "type": "Feature", "properties": { "id": 2, "Nom": "Crystal", "X": 739527.027, "Y": 322624.653 }, "geometry": { "type": "Point", "coordinates": [ 11.154833595993406, 2.916786787058489 ] } },
+{ "type": "Feature", "properties": { "id": 3, "Nom": "Contenaire 777", "X": 739578.3328, "Y": 322634.6894 }, "geometry": { "type": "Point", "coordinates": [ 11.155295106950955, 2.916876634404479 ] } },
+{ "type": "Feature", "properties": { "id": 4, "Nom": "Cote d'Azur", "X": 739040.1467, "Y": 323197.0382 }, "geometry": { "type": "Point", "coordinates": [ 11.150465443877112, 2.921969947887046 ] } },
+{ "type": "Feature", "properties": { "id": 5, "Nom": "Longue le nde", "X": 738811.2133, "Y": 323164.6678 }, "geometry": { "type": "Point", "coordinates": [ 11.148406319455876, 2.921681258054027 ] } },
+{ "type": "Feature", "properties": { "id": 6, "Nom": "Whatsapp", "X": 740934.6491, "Y": 322313.188 }, "geometry": { "type": "Point", "coordinates": [ 11.167485378828626, 2.913946530793135 ] } },
+{ "type": "Feature", "properties": { "id": 7, "Nom": "Caviar", "X": 739553.3085, "Y": 322606.2686 }, "geometry": { "type": "Point", "coordinates": [ 11.155069600925371, 2.916620125195896 ] } },
+{ "type": "Feature", "properties": { "id": 9, "Nom": "Dinar", "X": 738702.8318, "Y": 323072.2706 }, "geometry": { "type": "Point", "coordinates": [ 11.147430164639692, 2.920847797230878 ] } },
+{ "type": "Feature", "properties": { "id": 8, "Nom": "Instagram", "X": 738814.0595, "Y": 321789.2375 }, "geometry": { "type": "Point", "coordinates": [ 11.14840831345313, 2.909246387986943 ] } },
+{ "type": "Feature", "properties": { "id": 10, "Nom": "Santa Barbara", "X": 738820.7068, "Y": 321868.8353 }, "geometry": { "type": "Point", "coordinates": [ 11.148469447753969, 2.909965891681439 ] } },
+{ "type": "Feature", "properties": { "id": 12, "Nom": "Rumba", "X": 739417.1776000001, "Y": 318977.3289 }, "geometry": { "type": "Point", "coordinates": [ 11.153783429288492, 2.883814518837693 ] } },
+{ "type": "Feature", "properties": { "id": 11, "Nom": "Symbiose", "X": 740867.0659, "Y": 322327.2486 }, "geometry": { "type": "Point", "coordinates": [ 11.166877926264469, 2.914074822093636 ] } }
+]
+}

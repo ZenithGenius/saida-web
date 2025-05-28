@@ -1,5 +1,5 @@
 # Étape de build
-FROM node:18-alpine as build
+FROM node:18-alpine AS build
 
 WORKDIR /app
 
@@ -16,7 +16,7 @@ COPY . .
 RUN npm run build
 
 # Étape de production avec Nginx
-FROM nginx:alpine
+FROM nginx:alpine AS production
 
 # Copier la configuration Nginx
 COPY nginx.conf /etc/nginx/conf.d/default.conf

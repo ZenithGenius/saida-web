@@ -9,49 +9,55 @@ export interface LayerConfig {
 
 export const availableLayers: LayerConfig[] = [
   // Infrastructures académiques
-  { id: 'universite', name: 'Universités', category: layerCategories.ACADEMIQUE, filename: 'univrsite.geojson' },
-  { id: 'secretariat', name: 'Secrétariats', category: layerCategories.ACADEMIQUE, filename: 'Sécrétariats.geojson' },
-  { id: 'lycee_college', name: 'Lycées/Collèges', category: layerCategories.ACADEMIQUE, filename: 'college.geojson' },
-  { id: 'ecole_primaire', name: 'Écoles primaires', category: layerCategories.ACADEMIQUE, filename: 'ecole.geojson' },
-  { id: 'creche', name: 'Crèches', category: layerCategories.ACADEMIQUE, filename: 'creche.geojson' },
+  { id: 'lieux_cours', name: 'Lieux de cours', category: layerCategories.ACADEMIQUE, filename: './geojson_data/Infrastructures_académiques/Lieux_de_cours.geojson' },
+  { id: 'etablissements_sup', name: 'Établissements supérieurs', category: layerCategories.ACADEMIQUE, filename: './geojson_data/Infrastructures_académiques/Etablissements_supérieurs.geojson' },
+  { id: 'secretariats', name: 'Secrétariats', category: layerCategories.ACADEMIQUE, filename: './geojson_data/Infrastructures_académiques/Sécrétariats.geojson' },
+  { id: 'autres_academique', name: 'Autres', category: layerCategories.ACADEMIQUE, filename: './geojson_data/Infrastructures_académiques/Autres_(Infrastructures_académiques).geojson' },
 
   // Infrastructures administratives
-  { id: 'admin', name: 'Bureaux administratifs', category: layerCategories.ADMINISTRATIF, filename: 'offices_gov.geojson' },
-  { id: 'justice', name: 'Palais de justice', category: layerCategories.ADMINISTRATIF, filename: 'palais_justice.geojson' },
-
-  // Infrastructures sanitaires
-  { id: 'hopital', name: 'Hôpitaux', category: layerCategories.SANITAIRE, filename: 'hopital.geojson' },
-  { id: 'pharmacie', name: 'Pharmacies', category: layerCategories.SANITAIRE, filename: 'pharmacie.geojson' },
-  { id: 'clinique', name: 'Cliniques', category: layerCategories.SANITAIRE, filename: 'clinique.geojson' },
-  { id: 'centre_sante', name: 'Centres de santé', category: layerCategories.SANITAIRE, filename: 'centre_sante.geojson' },
-
-  // Infrastructures commerciales
-  { id: 'marche', name: 'Marchés', category: layerCategories.COMMERCIAL, filename: 'marches.geojson' },
-  { id: 'supermarche', name: 'Supermarchés', category: layerCategories.COMMERCIAL, filename: 'supermarche.geojson' },
-  { id: 'boutique', name: 'Boutiques', category: layerCategories.COMMERCIAL, filename: 'boutique.geojson' },
-  { id: 'banque', name: 'Banques', category: layerCategories.COMMERCIAL, filename: 'banques.geojson' },
+  { id: 'rectorat', name: 'Rectorat', category: layerCategories.ADMINISTRATIF, filename: './geojson_data/Infrastructures_administratives/Rectorat.geojson' },
+  { id: 'mairie', name: 'Mairie', category: layerCategories.ADMINISTRATIF, filename: './geojson_data/Infrastructures_administratives/Mairie.geojson' },
+  { id: 'prefecture', name: 'Préfecture', category: layerCategories.ADMINISTRATIF, filename: './geojson_data/Infrastructures_administratives/Préfecture.geojson' },
+  { id: 'sous_prefecture', name: 'Sous-préfecture', category: layerCategories.ADMINISTRATIF, filename: './geojson_data/Infrastructures_administratives/Sous_préfecture.geojson' },
+  { id: 'communaute_urbaine', name: 'Communauté urbaine', category: layerCategories.ADMINISTRATIF, filename: './geojson_data/Infrastructures_administratives/Communauté_urbaine.geojson' },
+  { id: 'delegations', name: 'Délégations', category: layerCategories.ADMINISTRATIF, filename: './geojson_data/Infrastructures_administratives/Délégations.geojson' },
+  { id: 'autres_admin', name: 'Autres', category: layerCategories.ADMINISTRATIF, filename: './geojson_data/Infrastructures_administratives/Autres_(Infrastructures_administratives).geojson' },
 
   // Infrastructures de sécurité
-  { id: 'commissariat', name: 'Police', category: layerCategories.SECURITE, filename: 'commissariat.geojson' },
-  { id: 'caserne', name: 'Sapeurs pompiers', category: layerCategories.SECURITE, filename: 'caserne.geojson' },
+  { id: 'commissariat', name: 'Commissariat', category: layerCategories.SECURITE, filename: './geojson_data/Infrastructures_de_sécurité/Commissariats.geojson' },
+  // { id: 'gendarmerie', name: 'Gendarmerie', category: layerCategories.SECURITE, filename: './geojson_data/Infrastructures_de_sécurité/Gendarmerie.geojson' },
+  { id: 'sapeurs_pompiers', name: 'Sapeurs pompiers', category: layerCategories.SECURITE, filename: './geojson_data/Infrastructures_de_sécurité/Sapeurs_pompiers.geojson' },
+  { id: 'autres_securite', name: 'Autres', category: layerCategories.SECURITE, filename: './geojson_data/Infrastructures_de_sécurité/Autres_(Infrastructures_de_sécurité).geojson' },
+
+  // Infrastructures de logement
+  { id: 'hotels', name: 'Hôtels', category: layerCategories.LOGEMENT, filename: './geojson_data/Infrastructures_de_logement/Hôtels.geojson' },
+  { id: 'motels', name: 'Motels', category: layerCategories.LOGEMENT, filename: './geojson_data/Infrastructures_de_logement/Motels.geojson' },
+  { id: 'cites', name: 'Cités', category: layerCategories.LOGEMENT, filename: './geojson_data/Infrastructures_de_logement/Cités.geojson' },
 
   // Infrastructures de transport
-  { id: 'gare', name: 'Gares routières', category: layerCategories.TRANSPORT, filename: 'gare_routiere.geojson' },
-  { id: 'station_service', name: 'Stations service', category: layerCategories.TRANSPORT, filename: 'station_service.geojson' },
+  { id: 'agences_voyage', name: 'Agences de voyage', category: layerCategories.TRANSPORT, filename: './geojson_data/Infrastructures_de_transport/Agences_de_voyage.geojson' },
+  { id: 'gares_routieres', name: 'Gares routières', category: layerCategories.TRANSPORT, filename: './geojson_data/Infrastructures_de_transport/Gares_routières.geojson' },
+
+  // Infrastructures marchandes
+  { id: 'marches', name: 'Marchés', category: layerCategories.COMMERCIAL, filename: './geojson_data/Infrastructures_marchandes/Marchés.geojson' },
+  { id: 'boulangeries', name: 'Boulangeries', category: layerCategories.COMMERCIAL, filename: './geojson_data/Infrastructures_marchandes/Boulangeries.geojson' },
+  { id: 'banques', name: 'Banques', category: layerCategories.COMMERCIAL, filename: './geojson_data/Infrastructures_marchandes/Banques.geojson' },
+  { id: 'stations_service', name: 'Stations service', category: layerCategories.COMMERCIAL, filename: './geojson_data/Infrastructures_marchandes/Stations_services.geojson' },
+  // { id: 'autres_marchands', name: 'Autres', category: layerCategories.COMMERCIAL, filename: './geojson_data/Infrastructures_marchandes/Autres_(Infrastructures_marchandes).geojson' },
+
+  // Infrastructures sanitaires
+  { id: 'hopitaux', name: 'Hôpitaux', category: layerCategories.SANITAIRE, filename: './geojson_data/Infrastructures_de_santé/Hôpitaux.geojson' },
+  { id: 'centres_sante', name: 'Centres de santé', category: layerCategories.SANITAIRE, filename: './geojson_data/Infrastructures_de_santé/Centres_de_santé.geojson' },
+  { id: 'cliniques', name: 'Cliniques', category: layerCategories.SANITAIRE, filename: './geojson_data/Infrastructures_de_santé/Cliniques.geojson' },
+  { id: 'pharmacies', name: 'Pharmacies', category: layerCategories.SANITAIRE, filename: './geojson_data/Infrastructures_de_santé/Pharmacies.geojson' },
 
   // Infrastructures religieuses
-  { id: 'eglise', name: 'Églises', category: layerCategories.RELIGIEUX, filename: 'eglise.geojson' },
-  { id: 'mosquee', name: 'Mosquées', category: layerCategories.RELIGIEUX, filename: 'mosquee.geojson' },
+  { id: 'eglises', name: 'Églises', category: layerCategories.RELIGIEUX, filename: './geojson_data/Infrastructures_religieuses/Eglises.geojson' },
+  { id: 'mosquees', name: 'Mosquées', category: layerCategories.RELIGIEUX, filename: './geojson_data/Infrastructures_religieuses/Mosquées.geojson' },
 
   // Infrastructures de loisirs
-  { id: 'loisirs', name: 'Espaces de loisirs', category: layerCategories.LOISIRS, filename: 'loisirs.geojson' },
-  { id: 'monument', name: 'Monuments', category: layerCategories.LOISIRS, filename: 'monument.geojson' },
-
-  // Couches de base
-  { id: 'batiments', name: 'Bâtiments', category: layerCategories.BASE, filename: 'buildings.geojson' },
-  { id: 'routes', name: 'Routes', category: layerCategories.BASE, filename: 'highway.geojson' },
-  { id: 'ruisseaux', name: 'Ruisseaux', category: layerCategories.BASE, filename: 'ruisseau.geojson' },
-  { id: 'lacs', name: 'Lacs', category: layerCategories.BASE, filename: 'lacs.geojson' },
-  { id: 'perimetre', name: 'Périmètre urbain', category: layerCategories.BASE, filename: 'Périmètre urbain.geojson' },
-  { id: 'localites', name: 'Localités', category: layerCategories.BASE, filename: 'Localités.geojson' },
+  { id: 'restaurants', name: 'Restaurants', category: layerCategories.LOISIRS, filename: './geojson_data/Infrastructures_de_loisirs/Restaurants.geojson' },
+  { id: 'sports', name: "Lieux de sports et d'activités physiques", category: layerCategories.LOISIRS, filename: "./geojson_data/Infrastructures_de_loisirs/Lieux_de_sports_et_d'activités_physiques.geojson" },
+  { id: 'espaces_verts', name: 'Espaces verts', category: layerCategories.LOISIRS, filename: './geojson_data/Infrastructures_de_loisirs/Espaces_verts.geojson' },
+  { id: 'autres_loisirs', name: 'Autres', category: layerCategories.LOISIRS, filename: './geojson_data/Infrastructures_de_loisirs/Autres_(Infrastructures_de_loisirs).geojson' }
 ]; 
