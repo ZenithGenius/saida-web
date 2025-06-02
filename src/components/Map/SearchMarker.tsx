@@ -26,9 +26,9 @@ interface NearbyService {
 const SearchMarker: React.FC<SearchMarkerProps> = ({ searchResult, layers }) => {
   const position: [number, number] = [parseFloat(searchResult.lat), parseFloat(searchResult.lon)];
 
-  // Trouver les services à proximité (dans un rayon de 1km)
+  // Trouver les services à proximité (dans un rayon de 3km)
   const findNearbyServices = (): NearbyService[] => {
-    const MAX_DISTANCE = 1000; // 1km en mètres
+    const MAX_DISTANCE = 3000; // 3km en mètres
     const searchPoint = L.latLng(position[0], position[1]);
     
     const nearbyServices = layers.flatMap(layer => {

@@ -50,14 +50,11 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
 
   // Find nearby services based on feature
   const findNearbyServices = (feature: Feature, allLayers: GeoJsonLayer[]) => {
-    const nearbyServices: {
-      name: string;
-      distance: number;
-      category: string;
-    }[] = [];
-
+    const MAX_DISTANCE = 3000; // 3km en mètres
     const currentCoords = getFeatureCoordinates(feature);
-    if (!currentCoords) return nearbyServices;
+    if (!currentCoords) return [];
+
+    const nearbyServices: Array<{ name: string; distance: number; category: string }> = [];
 
     allLayers.forEach((layer) => {
       if (layer.data && layer.data.features) {
@@ -77,7 +74,7 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
               "kilometers"
           );
 
-          if (distance <= 1) {
+          if (distance * 1000 <= MAX_DISTANCE) {
             nearbyServices.push({
               name: otherFeature.properties?.name || otherFeature.properties?.nom || otherFeature.properties?.Noms || "Non nommé",
               distance: Math.round(distance * 1000),
