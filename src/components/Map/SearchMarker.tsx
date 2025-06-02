@@ -76,7 +76,7 @@ const SearchMarker: React.FC<SearchMarkerProps> = ({ searchResult, layers }) => 
           }
 
           return {
-            name: feature.properties?.nom || feature.properties?.name || 'Sans nom',
+            name: feature.properties?.nom || feature.properties?.name || feature.properties?.Noms || 'Sans nom',
             category: layer.category,
             distance: searchPoint.distanceTo(featurePoint)
           };

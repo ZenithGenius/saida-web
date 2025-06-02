@@ -129,6 +129,7 @@ const RoutingPanel: React.FC<RoutingPanelProps> = ({
               const name =
                 feature.properties.NOM ||
                 feature.properties.Nom ||
+                feature.properties.Noms ||
                 feature.properties.nom ||
                 feature.properties.NAME ||
                 feature.properties.Name ||
