@@ -79,7 +79,7 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
 
           if (distance <= 1) {
             nearbyServices.push({
-              name: otherFeature.properties?.name || "Non nommé",
+              name: otherFeature.properties?.name || otherFeature.properties?.nom || otherFeature.properties?.Noms || "Non nommé",
               distance: Math.round(distance * 1000),
               category: layer.category,
             });
@@ -106,7 +106,7 @@ const GeoJsonLayers: React.FC<GeoJsonLayersProps> = ({
     container.innerHTML = `
       <div style="font-family: Arial, sans-serif;">
         <h3 style="margin: 0 0 8px 0; font-size: 16px;">${
-          feature.properties?.name || "Non nommé"
+          feature.properties?.name || feature.properties?.nom || feature.properties?.Noms || "Non nommé"
         }</h3>
         <p style="margin: 4px 0; color: #666; font-size: 14px;">Catégorie: ${category}</p>
         <p style="margin: 4px 0; font-size: 14px;">Coordonnées: ${coordinates[1].toFixed(
