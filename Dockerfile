@@ -21,6 +21,9 @@ FROM nginx:alpine AS production
 # Copier la configuration Nginx
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
+# Créer le dossier pour les données GeoJSON
+RUN mkdir -p /usr/share/nginx/html/data
+
 # Copier les fichiers buildés depuis l'étape précédente
 COPY --from=build /app/dist /usr/share/nginx/html
 
